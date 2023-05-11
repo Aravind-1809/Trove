@@ -1,0 +1,695 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+
+
+<div id="grve-indicator" class=" grve-style-1 grve-blend">
+    <div class="grve-default"></div>
+    <div class="grve-inner grve-ind-arrow"> <svg width="40px" height="16px" viewBox="0 0 40 16">
+            <polygon class="grve-arrow-line" points="0 7 38 7 38 9 0 9"></polygon>
+            <polygon class="grve-arrow-point"
+                points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809"></polygon>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-search"> <svg width="24px" height="24px" viewBox="0 0 24 24"
+            stroke-width="0">
+            <path
+                d="M11,3 C15.418278,3 19,6.581722 19,11 C19,13.1038245 18.1879088,15.0179749 16.860099,16.4460786 L20.2071068,19.7928932 C20.5976311,20.1834175 20.5976311,20.8165825 20.2071068,21.2071068 C19.8466228,21.5675907 19.2793918,21.5953203 18.8871006,21.2902954 L18.7928932,21.2071068 L15.3199029,17.7345448 C14.0739277,18.5354376 12.5912161,19 11,19 C6.581722,19 3,15.418278 3,11 C3,6.581722 6.581722,3 11,3 Z M11,5 C7.6862915,5 5,7.6862915 5,11 C5,14.3137085 7.6862915,17 11,17 C14.3137085,17 17,14.3137085 17,11 C17,7.6862915 14.3137085,5 11,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-plus"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-arrows-left-right"> <svg width="24px" height="24px" viewBox="0 0 24 24">
+            <path d="M20,8 L24,12 L20,16 L19,15 L22,12 L19,9 L20,8 Z M4,8 L5,9 L2,12 L5,15 L4,16 L0,12 L4,8 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-text"><span class="grve-link-text"></span></div>
+    <div class="grve-ind-content"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+</div>
+<div id="grve-theme-content">
+
+    <div id="grve-blog-title" class="grve-title-section grve-with-title grve-bg-primary-1"
+        data-height="small">
+        <div class="grve-wrapper" style="min-height:250px;">
+            <div class="grve-content grve-align-left-bottom" data-animation="none">
+                <div class="grve-container">
+                    <div class="grve-title-content-wrapper grve-bg-none grve-align-left grve-content-container">
+                        <h1 class="grve-title grve-blog-title grve-text-white" style="margin-bottom:30px;"><span>Reports &amp; Commentary -
+                                Carbon Credit Integrity</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="grve-content" class="clearfix grve-with-sidebar grve-left-sidebar">
+        <div id="grve-page-breadcrumbs" class="grve-breadcrumbs clearfix grve-align-left">
+            <div class="grve-breadcrumbs-wrapper">
+                <div class="grve-container">
+                    <nav id="grve-yoast-breadcrumbs" class="grve-yoast-breadcrumbs grve-small-text"
+                        aria-label="Breadcrumbs">
+                        <span>
+                            <span><a href="{% url 'index' %}">Home</a> /
+                                <span><a href="{% url 'reports-and-commentary' %}">Reports and Commentary</a> /
+                                    <span class="breadcrumb_last" aria-current="page">
+                                        Carbon Credit Integrity </span></span></span></span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="grve-content-wrapper">
+
+            <div id="grve-main-content">
+                <div class="grve-main-content-wrapper clearfix">
+                    <div class="grve-section" style="margin-bottom: 0px;">
+                        <div class="grve-container pad3">
+
+                            <div data-display-style="load-more" data-spinner="no" data-columns-large-screen="3"
+                                data-columns="3" data-columns-tablet-landscape="3"
+                                data-columns-tablet-portrait="2" data-columns-mobile="1" data-layout="fitRows"
+                                data-gutter-size="30" data-animation="none" id="grve-main-blog-loop"
+                                class="grve-blog grve-blog-columns grve-blog-grid grve-isotope">
+                                <div class="grve-isotope-container">
+                                    <div class="grve-grid-sizer"></div>
+                                    <article
+                                        class="post-47625 post type-post status-publish format-standard has-post-thumbnail hentry category-free category-webinar tag-carbon-credit-integrity tag-carbon-credit-prices tag-carbon-projects-and-transactions tag-corporate-climate-commitments tag-free-report tag-overall-summary tag-policy-and-guidance tag-webinar grve-entry-item grve-blog-item"
+                                        itemscope itemType="http://schema.org/BlogPosting">
+                                        <div class="grve-isotope-item-inner grve-default-size">
+                                            <div class="grve-post-item grve-style-1 grve-format-standard">
+                                                <div class="grve-post-item-inner">
+                                                    <div class="grve-post-top">
+                                                        <div
+                                                            class="grve-post-media grve-radius-3 grve-shadow-none">
+                                                            <div class="grve-thumbnail-wrapper">
+                                                                <div class="grve-thumbnail"
+                                                                    style="padding-top: 75%;"><img width="560"
+                                                                        height="420" alt=""
+                                                                        data-column-space="100" data-lazyload=""
+                                                                        data-grve-filter="yes"
+                                                                        data-srcset="https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-560x420.png 560w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-300x225.png 300w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-1024x768.png 1024w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-768x576.png 768w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-900x675.png 900w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814.png 1440w"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-560x420.png"
+                                                                        data-sizes="(max-width: 560px) 100vw, 560px"
+                                                                        class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            width="560" height="420"
+                                                                            src="https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-560x420.png"
+                                                                            class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image"
+                                                                            alt="" data-column-space="100"
+                                                                            data-lazyload=""
+                                                                            data-grve-filter="yes"
+                                                                            srcset="https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-560x420.png 560w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-300x225.png 300w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-1024x768.png 1024w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-768x576.png 768w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814-900x675.png 900w, https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814.png 1440w"
+                                                                            sizes="(max-width: 560px) 100vw, 560px" /></noscript>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="grve-post-category grve-small-text"><a
+                                                                href="{% url 'category/webinar' %}">Webinar</a>
+                                                        </div>
+                                                        <div class="grve-post-content">
+                                                            <div class="grve-post-date grve-small-text"><span>
+                                                                    <time datetime="2023-04-18T17:14:25+01:00">
+                                                                        18 April 2023 </time>
+                                                                </span></div>
+                                                            <h3 class="grve-post-title grve-h3"
+                                                                itemprop="headline"><span>Voluntary Carbon
+                                                                    Market 1Q23 in Review &#8211; the State of
+                                                                    Integrity</span></h3>
+                                                            <div class="grve-post-exerpt"
+                                                                itemprop="articleBody">
+                                                                <p>This video and slide pack is from the 18th
+                                                                    April Trove webinar on key developments in
+                                                                    the voluntary carbon market in the first
+                                                                    quarter of 2023, including an in-depth
+                                                                    review of&hellip;</p><a
+                                                                    class="grve-read-more grve-link-text "
+                                                                    href="{% url 'voluntary-carbon-market-1q23-in-review-the-state-of-integrity' %}"><span>Read
+                                                                        More</span> <svg width="40px"
+                                                                        height="16px" viewBox="0 0 40 16">
+                                                                        <polygon class="grve-arrow-line"
+                                                                            points="0 7 38 7 38 9 0 9">
+                                                                        </polygon>
+                                                                        <polygon class="grve-arrow-point"
+                                                                            points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809">
+                                                                        </polygon>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="grve-hidden">
+                                                    <span class="grve-structured-data" itemprop="image"
+                                                        itemscope itemtype="http://schema.org/ImageObject">
+                                                        <span
+                                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814.png</span>
+                                                        <span itemprop='height'>1440</span>
+                                                        <span itemprop='width'>1080</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="author"
+                                                        itemscope itemtype="http://schema.org/Person">
+                                                        <span itemprop="name">Trove Research</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="publisher"
+                                                        itemscope itemtype="http://schema.org/Organization">
+                                                        <span itemprop='name'>Trove Research</span>
+                                                        <span itemprop='logo' itemscope
+                                                            itemtype='http://schema.org/ImageObject'>
+                                                            <span
+                                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2023/04/Integrity-Webinar-Presentation-169-2-1-e1681835179814.png</span>
+                                                        </span>
+                                                    </span>
+                                                    <time class="grve-structured-data" itemprop="datePublished"
+                                                        datetime="2023-04-18T17:14:25+01:00">18 April
+                                                        2023</time>
+                                                    <time class="grve-structured-data" itemprop="dateModified"
+                                                        datetime="2023-04-19T14:15:36+01:00">19 April
+                                                        2023</time>
+                                                    <span class="grve-structured-data"
+                                                        itemprop="mainEntityOfPage" itemscope
+                                                        itemtype="http://schema.org/WebPage"
+                                                        itemid="https://trove-research.com/webinar/voluntary-carbon-market-1q23-in-review-the-state-of-integrity/"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article
+                                        class="post-46914 post type-post status-publish format-standard has-post-thumbnail hentry category-commentary category-free tag-carbon-credit-integrity tag-commentary tag-free-report grve-entry-item grve-blog-item"
+                                        itemscope itemType="http://schema.org/BlogPosting">
+                                        <div class="grve-isotope-item-inner grve-default-size">
+                                            <div class="grve-post-item grve-style-1 grve-format-standard">
+                                                <div class="grve-post-item-inner">
+                                                    <div class="grve-post-top">
+                                                        <div
+                                                            class="grve-post-media grve-radius-3 grve-shadow-none">
+                                                            <div class="grve-thumbnail-wrapper">
+                                                                <div class="grve-thumbnail"
+                                                                    style="padding-top: 58.929%;"><img
+                                                                        width="560" height="330" alt=""
+                                                                        data-column-space="100" data-lazyload=""
+                                                                        data-grve-filter="yes"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/2023/04/MicrosoftTeams-image-27-560x330.png"
+                                                                        class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            width="560" height="330"
+                                                                            src="https://trove-research.com/wp-content/uploads/2023/04/MicrosoftTeams-image-27-560x330.png"
+                                                                            class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image"
+                                                                            alt="" data-column-space="100"
+                                                                            data-lazyload=""
+                                                                            data-grve-filter="yes" /></noscript>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="grve-post-category grve-small-text"><a
+                                                                href="{% url 'category/commentary' %}">Commentary</a>
+                                                        </div>
+                                                        <div class="grve-post-content">
+                                                            <div class="grve-post-date grve-small-text"><span>
+                                                                    <time datetime="2023-04-05T11:22:11+01:00">
+                                                                        5 April 2023 </time>
+                                                                </span></div>
+                                                            <h3 class="grve-post-title grve-h3"
+                                                                itemprop="headline"><span>An Introduction to
+                                                                    Trove’s Carbon Credit Integrity
+                                                                    Assessments</span></h3>
+                                                            <div class="grve-post-exerpt"
+                                                                itemprop="articleBody">
+                                                                <p>We are excited to launch our new Carbon
+                                                                    Credit Integrity Assessment tool as a new
+                                                                    module on the Trove Intelligence platform.
+                                                                    The tool assesses the integrity of over
+                                                                    carbon 4,000&hellip;</p><a
+                                                                    class="grve-read-more grve-link-text "
+                                                                    href="{% url 'an-introduction-to-troves-carbon-credit-integrity-assessments' %}"><span>Read
+                                                                        More</span> <svg width="40px"
+                                                                        height="16px" viewBox="0 0 40 16">
+                                                                        <polygon class="grve-arrow-line"
+                                                                            points="0 7 38 7 38 9 0 9">
+                                                                        </polygon>
+                                                                        <polygon class="grve-arrow-point"
+                                                                            points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809">
+                                                                        </polygon>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="grve-hidden">
+                                                    <span class="grve-structured-data" itemprop="image"
+                                                        itemscope itemtype="http://schema.org/ImageObject">
+                                                        <span
+                                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2023/04/MicrosoftTeams-image-27-e1680690101307.png</span>
+                                                        <span itemprop='height'>358</span>
+                                                        <span itemprop='width'>269</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="author"
+                                                        itemscope itemtype="http://schema.org/Person">
+                                                        <span itemprop="name">Trove Research</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="publisher"
+                                                        itemscope itemtype="http://schema.org/Organization">
+                                                        <span itemprop='name'>Trove Research</span>
+                                                        <span itemprop='logo' itemscope
+                                                            itemtype='http://schema.org/ImageObject'>
+                                                            <span
+                                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2023/04/MicrosoftTeams-image-27-e1680690101307.png</span>
+                                                        </span>
+                                                    </span>
+                                                    <time class="grve-structured-data" itemprop="datePublished"
+                                                        datetime="2023-04-05T11:22:11+01:00">5 April 2023</time>
+                                                    <time class="grve-structured-data" itemprop="dateModified"
+                                                        datetime="2023-04-05T13:26:19+01:00">5 April 2023</time>
+                                                    <span class="grve-structured-data"
+                                                        itemprop="mainEntityOfPage" itemscope
+                                                        itemtype="http://schema.org/WebPage"
+                                                        itemid="https://trove-research.com/commentary/an-introduction-to-troves-carbon-credit-integrity-assessments/"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article
+                                        class="post-46875 post type-post status-publish format-standard has-post-thumbnail hentry category-commentary category-free tag-carbon-credit-integrity tag-free-report grve-entry-item grve-blog-item"
+                                        itemscope itemType="http://schema.org/BlogPosting">
+                                        <div class="grve-isotope-item-inner grve-default-size">
+                                            <div class="grve-post-item grve-style-1 grve-format-standard">
+                                                <div class="grve-post-item-inner">
+                                                    <div class="grve-post-top">
+                                                        <div
+                                                            class="grve-post-media grve-radius-3 grve-shadow-none">
+                                                            <div class="grve-thumbnail-wrapper">
+                                                                <div class="grve-thumbnail"
+                                                                    style="padding-top: 75%;"><img width="560"
+                                                                        height="420" alt=""
+                                                                        data-column-space="100" data-lazyload=""
+                                                                        data-grve-filter="yes"
+                                                                        data-srcset="https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184-560x420.jpg 560w, https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184-900x675.jpg 900w"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184-560x420.jpg"
+                                                                        data-sizes="(max-width: 560px) 100vw, 560px"
+                                                                        class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            width="560" height="420"
+                                                                            src="https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184-560x420.jpg"
+                                                                            class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image"
+                                                                            alt="" data-column-space="100"
+                                                                            data-lazyload=""
+                                                                            data-grve-filter="yes"
+                                                                            srcset="https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184-560x420.jpg 560w, https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184-900x675.jpg 900w"
+                                                                            sizes="(max-width: 560px) 100vw, 560px" /></noscript>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="grve-post-category grve-small-text"><a
+                                                                href="{% url 'category/commentary' %}">Commentary</a>
+                                                        </div>
+                                                        <div class="grve-post-content">
+                                                            <div class="grve-post-date grve-small-text"><span>
+                                                                    <time datetime="2023-04-05T11:11:45+01:00">
+                                                                        5 April 2023 </time>
+                                                                </span></div>
+                                                            <h3 class="grve-post-title grve-h3"
+                                                                itemprop="headline"><span>Core Carbon
+                                                                    Principles: Alignment with Trove’s Carbon
+                                                                    Credit Integrity Assessments</span></h3>
+                                                            <div class="grve-post-exerpt"
+                                                                itemprop="articleBody">
+                                                                <p>The IC-VCM’s newly launched Core Carbon
+                                                                    Principles (CCPs) are an important and
+                                                                    helpful initiative to improve integrity in
+                                                                    the voluntary carbon market&#8230;
+                                                                </p><a class="grve-read-more grve-link-text "
+                                                                    href="{% url 'core-carbon-principles-alignment-with-troves-carbon-credit-integrity-assessments' %}"><span>Read
+                                                                        More</span> <svg width="40px"
+                                                                        height="16px" viewBox="0 0 40 16">
+                                                                        <polygon class="grve-arrow-line"
+                                                                            points="0 7 38 7 38 9 0 9">
+                                                                        </polygon>
+                                                                        <polygon class="grve-arrow-point"
+                                                                            points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809">
+                                                                        </polygon>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="grve-hidden">
+                                                    <span class="grve-structured-data" itemprop="image"
+                                                        itemscope itemtype="http://schema.org/ImageObject">
+                                                        <span
+                                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184.jpg</span>
+                                                        <span itemprop='height'>2361</span>
+                                                        <span itemprop='width'>1490</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="author"
+                                                        itemscope itemtype="http://schema.org/Person">
+                                                        <span itemprop="name">Trove Research</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="publisher"
+                                                        itemscope itemtype="http://schema.org/Organization">
+                                                        <span itemprop='name'>Trove Research</span>
+                                                        <span itemprop='logo' itemscope
+                                                            itemtype='http://schema.org/ImageObject'>
+                                                            <span
+                                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2023/04/david-marcu-78A265wPiO4-unsplash-scaled-e1680689093184.jpg</span>
+                                                        </span>
+                                                    </span>
+                                                    <time class="grve-structured-data" itemprop="datePublished"
+                                                        datetime="2023-04-05T11:11:45+01:00">5 April 2023</time>
+                                                    <time class="grve-structured-data" itemprop="dateModified"
+                                                        datetime="2023-04-14T18:07:23+01:00">14 April
+                                                        2023</time>
+                                                    <span class="grve-structured-data"
+                                                        itemprop="mainEntityOfPage" itemscope
+                                                        itemtype="http://schema.org/WebPage"
+                                                        itemid="https://trove-research.com/commentary/core-carbon-principles-alignment-with-troves-carbon-credit-integrity-assessments/"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article
+                                        class="post-31340 post type-post status-publish format-standard has-post-thumbnail hentry category-commentary category-free tag-carbon-credit-integrity tag-carbon-projects-and-transactions tag-commentary tag-free-report tag-policy-and-guidance grve-entry-item grve-blog-item"
+                                        itemscope itemType="http://schema.org/BlogPosting">
+                                        <div class="grve-isotope-item-inner grve-default-size">
+                                            <div class="grve-post-item grve-style-1 grve-format-standard">
+                                                <div class="grve-post-item-inner">
+                                                    <div class="grve-post-top">
+                                                        <div
+                                                            class="grve-post-media grve-radius-3 grve-shadow-none">
+                                                            <div class="grve-thumbnail-wrapper">
+                                                                <div class="grve-thumbnail"
+                                                                    style="padding-top: 75%;"><img width="560"
+                                                                        height="420" alt=""
+                                                                        data-column-space="100" data-lazyload=""
+                                                                        data-grve-filter="yes"
+                                                                        data-srcset="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1-560x420.jpeg 560w, https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1-900x675.jpeg 900w"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1-560x420.jpeg"
+                                                                        data-sizes="(max-width: 560px) 100vw, 560px"
+                                                                        class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            width="560" height="420"
+                                                                            src="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1-560x420.jpeg"
+                                                                            class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image"
+                                                                            alt="" data-column-space="100"
+                                                                            data-lazyload=""
+                                                                            data-grve-filter="yes"
+                                                                            srcset="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1-560x420.jpeg 560w, https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1-900x675.jpeg 900w"
+                                                                            sizes="(max-width: 560px) 100vw, 560px" /></noscript>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="grve-post-category grve-small-text"><a
+                                                                href="{% url 'category/commentary' %}">Commentary</a>
+                                                        </div>
+                                                        <div class="grve-post-content">
+                                                            <div class="grve-post-date grve-small-text"><span>
+                                                                    <time datetime="2022-10-19T15:13:41+01:00">
+                                                                        19 October 2022 </time>
+                                                                </span></div>
+                                                            <h3 class="grve-post-title grve-h3"
+                                                                itemprop="headline"><span>REDD.plus – A green
+                                                                    idea, but too many red flags</span></h3>
+                                                            <div class="grve-post-exerpt"
+                                                                itemprop="articleBody">
+                                                                <p>The potential for "REDD.plus" to dump huge
+                                                                    quantities of carbon credits into the
+                                                                    voluntary carbon market has caused
+                                                                    consternation in some parts of the market.
+                                                                    It was definitely a hot topic&hellip;</p><a
+                                                                    class="grve-read-more grve-link-text "
+                                                                    href="{% url 'redd-plus' %}"><span>Read
+                                                                        More</span> <svg width="40px"
+                                                                        height="16px" viewBox="0 0 40 16">
+                                                                        <polygon class="grve-arrow-line"
+                                                                            points="0 7 38 7 38 9 0 9">
+                                                                        </polygon>
+                                                                        <polygon class="grve-arrow-point"
+                                                                            points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809">
+                                                                        </polygon>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="grve-hidden">
+                                                    <span class="grve-structured-data" itemprop="image"
+                                                        itemscope itemtype="http://schema.org/ImageObject">
+                                                        <span
+                                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1.jpeg</span>
+                                                        <span itemprop='height'>1200</span>
+                                                        <span itemprop='width'>1200</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="author"
+                                                        itemscope itemtype="http://schema.org/Person">
+                                                        <span itemprop="name">Trove Research</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="publisher"
+                                                        itemscope itemtype="http://schema.org/Organization">
+                                                        <span itemprop='name'>Trove Research</span>
+                                                        <span itemprop='logo' itemscope
+                                                            itemtype='http://schema.org/ImageObject'>
+                                                            <span
+                                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1.jpeg</span>
+                                                        </span>
+                                                    </span>
+                                                    <time class="grve-structured-data" itemprop="datePublished"
+                                                        datetime="2022-10-19T15:13:41+01:00">19 October
+                                                        2022</time>
+                                                    <time class="grve-structured-data" itemprop="dateModified"
+                                                        datetime="2023-03-01T14:53:50+00:00">1 March 2023</time>
+                                                    <span class="grve-structured-data"
+                                                        itemprop="mainEntityOfPage" itemscope
+                                                        itemtype="http://schema.org/WebPage"
+                                                        itemid="https://trove-research.com/commentary/redd-plus/"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article
+                                        class="post-22719 post type-post status-publish format-standard has-post-thumbnail hentry category-free category-webinar tag-carbon-credit-integrity tag-free-report tag-policy-and-guidance tag-webinar grve-entry-item grve-blog-item"
+                                        itemscope itemType="http://schema.org/BlogPosting">
+                                        <div class="grve-isotope-item-inner grve-default-size">
+                                            <div class="grve-post-item grve-style-1 grve-format-standard">
+                                                <div class="grve-post-item-inner">
+                                                    <div class="grve-post-top">
+                                                        <div
+                                                            class="grve-post-media grve-radius-3 grve-shadow-none">
+                                                            <div class="grve-thumbnail-wrapper">
+                                                                <div class="grve-thumbnail"
+                                                                    style="padding-top: 75%;"><img width="560"
+                                                                        height="420" alt=""
+                                                                        data-column-space="100" data-lazyload=""
+                                                                        data-grve-filter="yes"
+                                                                        data-srcset="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1-560x420.png 560w, https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1-900x675.png 900w"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1-560x420.png"
+                                                                        data-sizes="(max-width: 560px) 100vw, 560px"
+                                                                        class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            width="560" height="420"
+                                                                            src="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1-560x420.png"
+                                                                            class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image"
+                                                                            alt="" data-column-space="100"
+                                                                            data-lazyload=""
+                                                                            data-grve-filter="yes"
+                                                                            srcset="https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1-560x420.png 560w, https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1-900x675.png 900w"
+                                                                            sizes="(max-width: 560px) 100vw, 560px" /></noscript>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="grve-post-category grve-small-text"><a
+                                                                href="{% url 'category/webinar' %}">Webinar</a>
+                                                        </div>
+                                                        <div class="grve-post-content">
+                                                            <div class="grve-post-date grve-small-text"><span>
+                                                                    <time datetime="2022-09-12T17:40:20+01:00">
+                                                                        12 September 2022 </time>
+                                                                </span></div>
+                                                            <h3 class="grve-post-title grve-h3"
+                                                                itemprop="headline"><span>Raising the bar: Will
+                                                                    new policies deliver higher carbon credit
+                                                                    quality?</span></h3>
+                                                            <div class="grve-post-exerpt"
+                                                                itemprop="articleBody">
+                                                                <p>This slide pack and recording contains the
+                                                                    presentation from Trove’s September 12th
+                                                                    webinar on key policy development regarding
+                                                                    carbon credit quality, including Core Carbon
+                                                                    Principles and updates from IC-VCM.</p><a
+                                                                    class="grve-read-more grve-link-text "
+                                                                    href="{% url 'raising-the-bar-will-new-policies-deliver-higher-carbon-credit-quality' %}"><span>Read
+                                                                        More</span> <svg width="40px"
+                                                                        height="16px" viewBox="0 0 40 16">
+                                                                        <polygon class="grve-arrow-line"
+                                                                            points="0 7 38 7 38 9 0 9">
+                                                                        </polygon>
+                                                                        <polygon class="grve-arrow-point"
+                                                                            points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809">
+                                                                        </polygon>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="grve-hidden">
+                                                    <span class="grve-structured-data" itemprop="image"
+                                                        itemscope itemtype="http://schema.org/ImageObject">
+                                                        <span
+                                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1.png</span>
+                                                        <span itemprop='height'>1200</span>
+                                                        <span itemprop='width'>1200</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="author"
+                                                        itemscope itemtype="http://schema.org/Person">
+                                                        <span itemprop="name">Trove Research</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="publisher"
+                                                        itemscope itemtype="http://schema.org/Organization">
+                                                        <span itemprop='name'>Trove Research</span>
+                                                        <span itemprop='logo' itemscope
+                                                            itemtype='http://schema.org/ImageObject'>
+                                                            <span
+                                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-21-1.png</span>
+                                                        </span>
+                                                    </span>
+                                                    <time class="grve-structured-data" itemprop="datePublished"
+                                                        datetime="2022-09-12T17:40:20+01:00">12 September
+                                                        2022</time>
+                                                    <time class="grve-structured-data" itemprop="dateModified"
+                                                        datetime="2023-03-01T14:54:12+00:00">1 March 2023</time>
+                                                    <span class="grve-structured-data"
+                                                        itemprop="mainEntityOfPage" itemscope
+                                                        itemtype="http://schema.org/WebPage"
+                                                        itemid="https://trove-research.com/webinar/raising-the-bar-will-new-policies-deliver-higher-carbon-credit-quality/"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article
+                                        class="post-21085 post type-post status-publish format-standard has-post-thumbnail hentry category-report tag-carbon-credit-integrity tag-carbon-projects-and-transactions tag-free-report tag-policy-and-guidance grve-entry-item grve-blog-item"
+                                        itemscope itemType="http://schema.org/BlogPosting">
+                                        <div class="grve-isotope-item-inner grve-default-size">
+                                            <div class="grve-post-item grve-style-1 grve-format-standard">
+                                                <div class="grve-post-item-inner">
+                                                    <div class="grve-post-top">
+                                                        <div
+                                                            class="grve-post-media grve-radius-3 grve-shadow-none">
+                                                            <div class="grve-thumbnail-wrapper">
+                                                                <div class="grve-thumbnail"
+                                                                    style="padding-top: 75%;"><img width="560"
+                                                                        height="420" alt=""
+                                                                        data-column-space="100" data-lazyload=""
+                                                                        data-grve-filter="yes"
+                                                                        data-srcset="https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market-560x420.jpg 560w, https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market-900x675.jpg 900w"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market-560x420.jpg"
+                                                                        data-sizes="(max-width: 560px) 100vw, 560px"
+                                                                        class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            width="560" height="420"
+                                                                            src="https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market-560x420.jpg"
+                                                                            class="attachment-impeka-grve-small-rect-horizontal size-impeka-grve-small-rect-horizontal wp-post-image"
+                                                                            alt="" data-column-space="100"
+                                                                            data-lazyload=""
+                                                                            data-grve-filter="yes"
+                                                                            srcset="https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market-560x420.jpg 560w, https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market-900x675.jpg 900w"
+                                                                            sizes="(max-width: 560px) 100vw, 560px" /></noscript>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="grve-post-category grve-small-text"><a
+                                                                href="{% url 'report' %}">Report</a>
+                                                        </div>
+                                                        <div class="grve-post-content">
+                                                            <div class="grve-post-date grve-small-text"><span>
+                                                                    <time datetime="2021-01-11T00:02:24+00:00">
+                                                                        11 January 2021 </time>
+                                                                </span></div>
+                                                            <h3 class="grve-post-title grve-h3"
+                                                                itemprop="headline"><span>The Global Voluntary
+                                                                    Carbon Market – Dealing with the problem of
+                                                                    historic credits</span></h3>
+                                                            <div class="grve-post-exerpt"
+                                                                itemprop="articleBody">
+                                                                <p>Established over a decade ago, the market for
+                                                                    carbon offsets (known as the voluntary
+                                                                    carbon market), is undergoing a surge of
+                                                                    interest. It is used by firms as a
+                                                                    method&hellip;</p><a
+                                                                    class="grve-read-more grve-link-text "
+                                                                    href="{% url 'the-global-voluntary-carbon-market-dealing-with-the-problem-of-historic-credits' %}"><span>Read
+                                                                        More</span> <svg width="40px"
+                                                                        height="16px" viewBox="0 0 40 16">
+                                                                        <polygon class="grve-arrow-line"
+                                                                            points="0 7 38 7 38 9 0 9">
+                                                                        </polygon>
+                                                                        <polygon class="grve-arrow-point"
+                                                                            points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809">
+                                                                        </polygon>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="grve-hidden">
+                                                    <span class="grve-structured-data" itemprop="image"
+                                                        itemscope itemtype="http://schema.org/ImageObject">
+                                                        <span
+                                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market.jpg</span>
+                                                        <span itemprop='height'>960</span>
+                                                        <span itemprop='width'>960</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="author"
+                                                        itemscope itemtype="http://schema.org/Person">
+                                                        <span itemprop="name">Trove Research</span>
+                                                    </span>
+                                                    <span class="grve-structured-data" itemprop="publisher"
+                                                        itemscope itemtype="http://schema.org/Organization">
+                                                        <span itemprop='name'>Trove Research</span>
+                                                        <span itemprop='logo' itemscope
+                                                            itemtype='http://schema.org/ImageObject'>
+                                                            <span
+                                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2022/01/voluntary-carbon-market.jpg</span>
+                                                        </span>
+                                                    </span>
+                                                    <time class="grve-structured-data" itemprop="datePublished"
+                                                        datetime="2021-01-11T00:02:24+00:00">11 January
+                                                        2021</time>
+                                                    <time class="grve-structured-data" itemprop="dateModified"
+                                                        datetime="2023-03-01T14:54:49+00:00">1 March 2023</time>
+                                                    <span class="grve-structured-data"
+                                                        itemprop="mainEntityOfPage" itemscope
+                                                        itemtype="http://schema.org/WebPage"
+                                                        itemid="https://trove-research.com/report/the-global-voluntary-carbon-market-dealing-with-the-problem-of-historic-credits/"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {% include "aside.html" %}
+        </div>
+    </div>
+</div>
+<div class="section-footer /"></div>
+
+
+{% endblock %}

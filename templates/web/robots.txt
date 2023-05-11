@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /accounts/
+ 
+# too many repeated hits, too quick
+User-agent: litefinder
+Disallow: /
+ 
+# Yahoo. too many repeated hits, too quick
+User-agent: Slurp
+Disallow: /
+ 
+# too many repeated hits, too quick
+User-agent: Baidu
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: TruliaBot
+Disallow: /
+
+User-agent: *
+Disallow: /search.html
+
+User-agent: *
+Disallow: /comments/*
+
+User-agent: Mediapartners-Google*
+Disallow:

@@ -1,0 +1,1257 @@
+{% load static %}
+
+<header id="grve-header">
+
+    <div id="grve-main-header"
+        class="grve-layout-default grve-style-1 grve-fullwidth grve-skin-light grve-simple-sticky grve-border grve-border-bottom grve-menu-type-underline"
+        data-sticky="simple" data-header-skin="light">
+        <div class="grve-container">
+            <div class="grve-header-row">
+                <div class="grve-left-area">
+
+                    <div class="grve-logo">
+                        <div class="grve-logo-inner">
+                            <a href="{% url 'index' %}">
+                                <img width="166" height="52" alt="Trove Research"
+                                    data-src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                    class="grve-default lazyload"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                        width="166" height="52"
+                                        src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                        class="grve-default" alt="Trove Research" /></noscript><img width="165"
+                                    height="51" alt="Trove Research"
+                                    data-src="https://trove-research.com/wp-content/uploads/2022/07/logo_light.svg"
+                                    class="grve-light lazyload"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                        width="165" height="51"
+                                        src="https://trove-research.com/wp-content/uploads/2022/07/logo_light.svg"
+                                        class="grve-light" alt="Trove Research" /></noscript><img width="166"
+                                    height="52" alt="Trove Research"
+                                    data-src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                    class="grve-dark lazyload"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                        width="166" height="52"
+                                        src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                        class="grve-dark" alt="Trove Research" /></noscript><img width="166" height="52"
+                                    alt="Trove Research"
+                                    data-src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                    class="grve-sticky lazyload"
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                        width="166" height="52"
+                                        src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                        class="grve-sticky" alt="Trove Research" /></noscript> </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="grve-right-area">
+                    <nav id="grve-main-menu" class="grve-header-menu grve-horizontal-menu grve-position-right"
+                        aria-label="Main">
+                        <ul id="menu-main-menu" class="grve-menu">
+                            <li id="menu-item-21005"
+                                class="hide-logged-in menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20997 current_page_item menu-item-21005 grve-first-level">
+                                <div class="grve-link-wrapper"><a href="{% url 'reports-and-commentary' %}"
+                                        aria-current="page"><span class="grve-item">Reports &#038; Commentary</span></a>
+                                </div>
+                            </li>
+                            <li id="menu-item-32043"
+                                class="show-logged-in menu-item menu-item-type-post_type menu-item-object-page menu-item-32043 grve-first-level">
+                                <div class="grve-link-wrapper"><a href="{% url 'reports-and-commentary' %}"><span
+                                            class="grve-item">Reports &#038; Commentary</span></a></div>
+                            </li>
+                            <li id="menu-item-19965"
+                                class="homemenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19965 grve-first-level">
+                                <div class="grve-link-wrapper"><a
+                                        href="{% url 'intelligence-platform' %}"><span
+                                            class="grve-item">Intelligence Platform</span></a>
+                                    <div class="grve-arrow"></div>
+                                </div>
+                                <div class="grve-classic-sub-menu grve-sub-menu">
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-20127"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20127">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'corporate-climate-commitments' %}"><span
+                                                        class="grve-item">Corporate Climate Commitments</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20244"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20244">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'carbon-credit-prices' %}"><span
+                                                        class="grve-item">Carbon Credit Prices</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20243"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20243">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'voluntary-carbon-market-forecasts' %}"><span
+                                                        class="grve-item">VCM Forecasts</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20242"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20242">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'policy-and-guidance' %}"><span
+                                                        class="grve-item">Policy and Guidance</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20241"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20241">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'carbon-projects-and-transactions' %}"><span
+                                                        class="grve-item">Carbon Projects and Transactions</span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-46819"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46819">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'carbon-credit-integrity' %}"><span
+                                                        class="grve-item">Carbon Credit Integrity</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20296"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20296">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'corporate-climate-news' %}"><span
+                                                        class="grve-item">Corporate Climate News</span></a></div>
+                                        </li>
+                                        <li id="menu-item-33228"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33228">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'strategic-guides' %}"><span
+                                                        class="grve-item">Strategic Guides</span></a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!--<li id="menu-item-20971" class="promenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20971 grve-first-level"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/"><span class="grve-item">Intelligence Platform</span><span class="grve-label grve-bg-primary-2">PRO</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-20972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20972"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/"><span class="grve-item">Corporate Climate Commitments</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-28435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28435"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/tracking-corporate-climate-commitments/"><span class="grve-item">Targets and Emissions Tracker</span></a></div></li>-->
+                            <!--<li id="menu-item-28432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28432"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/corporate-climate-commitments-and-credit-demand-profiles/"><span class="grve-item">Company Profiles</span></a></div></li>-->
+                            <!--<li id="menu-item-28433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28433"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/global-credit-demand-forecasts/"><span class="grve-item">Global Credit Demand Forecasts</span></a></div></li>-->
+                            <!--<li id="menu-item-28434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28434"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/historic-corporate-credit-demand/"><span class="grve-item">Credit Purchasing and Retirement History</span></a></div></li>-->
+                            <!--<li id="menu-item-28431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28431"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/carbon-neutral-fuels/"><span class="grve-item">Carbon Neutral Fuels</span></a></div></li>-->
+                            <!--<li id="menu-item-28430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28430"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/reports-commentary/"><span class="grve-item">Reports &#038; Commentary</span></a></div></li>-->
+                            <!--<li id="menu-item-31526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31526"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/data-methodology-note/"><span class="grve-item">Data &#038; Methodology Note</span></a></div></li>-->
+                            <!--<li id="menu-item-31528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31528"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/user-guide-faqs/"><span class="grve-item">User Guide &#038; FAQs</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-20973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20973"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/"><span class="grve-item">Carbon Credit Prices</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-28436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28436"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/voluntary-carbon-market-pricing/"><span class="grve-item">Trove Carbon Credit Indices</span></a></div></li>-->
+                            <!--<li id="menu-item-28437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28437"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/standardised-contract-pricing/"><span class="grve-item">Standardised Contract Prices</span></a></div></li>-->
+                            <!--<li id="menu-item-28438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28438"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/regulated-carbon-market-pricing/"><span class="grve-item">Compliance Market Prices</span></a></div></li>-->
+                            <!--<li id="menu-item-33300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33300"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/credit-price-calculator/"><span class="grve-item">Carbon Price Calculator</span></a></div></li>-->
+                            <!--<li id="menu-item-28448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28448"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/reports-commentary/"><span class="grve-item">Reports &#038; Commentary</span></a></div></li>-->
+                            <!--<li id="menu-item-31540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31540"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/data-methodology-note/"><span class="grve-item">Data &#038; Methodology Note</span></a></div></li>-->
+                            <!--<li id="menu-item-31539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31539"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/user-guide-faqs/"><span class="grve-item">User Guide &#038; FAQs</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-20974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20974"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/"><span class="grve-item">Voluntary Carbon Market Forecasts</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-28439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28439"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/trove-research-price-forecasts/"><span class="grve-item">Carbon Credit Price Scenarios</span></a></div></li>-->
+                            <!--<li id="menu-item-28440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28440"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/global-credit-demand-forecasts/"><span class="grve-item">Global Credit Demand Forecasts</span></a></div></li>-->
+                            <!--<li id="menu-item-28441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28441"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/projected-issuances-from-registered-pipeline-projects/"><span class="grve-item">Issuance Projections from Known Projects</span></a></div></li>-->
+                            <!--<li id="menu-item-32416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32416"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/supply-demand-gap-analysis/"><span class="grve-item">Supply-Demand Gap Analysis</span></a></div></li>-->
+                            <!--<li id="menu-item-28447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28447"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/reports-commentary/"><span class="grve-item">Reports &#038; Commentary</span></a></div></li>-->
+                            <!--<li id="menu-item-31546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31546"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/data-methodology-note/"><span class="grve-item">Data &#038; Methodology Note</span></a></div></li>-->
+                            <!--<li id="menu-item-31545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31545"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/user-guide-faqs/"><span class="grve-item">User Guide &#038; FAQs</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-20975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20975"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/"><span class="grve-item">Policy and Guidance</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-20976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20976"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/policy-update-database/"><span class="grve-item">Policy Update Database</span></a></div></li>-->
+                            <!--<li id="menu-item-28449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28449"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/consultation-tracker/"><span class="grve-item">Consultation Tracker</span></a></div></li>-->
+                            <!--<li id="menu-item-28450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28450"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/"><span class="grve-item">Country Profiles</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-43679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43679"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/brazil-profile/"><span class="grve-item">Brazil</span></a></div></li>-->
+                            <!--<li id="menu-item-47606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47606"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/cambodia-profile/"><span class="grve-item">Cambodia</span></a></div></li>-->
+                            <!--<li id="menu-item-46369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46369"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/china-profile/"><span class="grve-item">China</span></a></div></li>-->
+                            <!--<li id="menu-item-43665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43665"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/colombia-profile/"><span class="grve-item">Colombia</span></a></div></li>-->
+                            <!--<li id="menu-item-43673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43673"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/democratic-republic-of-congo-profile/"><span class="grve-item">Democratic Republic of Congo</span></a></div></li>-->
+                            <!--<li id="menu-item-48312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48312"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/ecuador-profile/"><span class="grve-item">Ecuador</span></a></div></li>-->
+                            <!--<li id="menu-item-47808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47808"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/india-profile/"><span class="grve-item">India</span></a></div></li>-->
+                            <!--<li id="menu-item-43671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43671"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/indonesia-profile/"><span class="grve-item">Indonesia</span></a></div></li>-->
+                            <!--<li id="menu-item-43674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43674"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/kenya-profile/"><span class="grve-item">Kenya</span></a></div></li>-->
+                            <!--<li id="menu-item-43670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43670"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/mexico-profile/"><span class="grve-item">Mexico</span></a></div></li>-->
+                            <!--<li id="menu-item-43669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43669"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/peru-profile/"><span class="grve-item">Peru</span></a></div></li>-->
+                            <!--<li id="menu-item-43668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43668"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/south-africa-profile/"><span class="grve-item">South Africa</span></a></div></li>-->
+                            <!--<li id="menu-item-46365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46365"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/tanzania-profile/"><span class="grve-item">Tanzania</span></a></div></li>-->
+                            <!--<li id="menu-item-47720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47720"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/turkey-profile/"><span class="grve-item">Türkiye</span></a></div></li>-->
+                            <!--<li id="menu-item-43666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43666"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/usa-profile/"><span class="grve-item">USA</span></a></div></li>-->
+                            <!--<li id="menu-item-43667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43667"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/vietnam-profile/"><span class="grve-item">Vietnam</span></a></div></li>-->
+                            <!--<li id="menu-item-43654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43654"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/zambia-profile/"><span class="grve-item">Zambia</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-28452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28452"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/stakeholder-mapping/"><span class="grve-item">Stakeholder Mapping</span></a></div></li>-->
+                            <!--<li id="menu-item-48314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48314"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/set-policy-alerts/"><span class="grve-item">Set Policy Alerts</span></a></div></li>-->
+                            <!--<li id="menu-item-28445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28445"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/reports-commentary/"><span class="grve-item">Reports &#038; Commentary</span></a></div></li>-->
+                            <!--<li id="menu-item-31552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31552"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/data-methodology-note/"><span class="grve-item">Data &#038; Methodology Note</span></a></div></li>-->
+                            <!--<li id="menu-item-31551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31551"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/user-guide-faqs/"><span class="grve-item">User Guide &#038; FAQs</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-20978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20978"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/"><span class="grve-item">Carbon Projects and Transactions</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-28453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28453"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/issuances-and-retirements/"><span class="grve-item">Issuances and Retirements</span></a></div></li>-->
+                            <!--<li id="menu-item-28454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28454"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/pipeline-capacity/"><span class="grve-item">Pipeline Capacity</span></a></div></li>-->
+                            <!--<li id="menu-item-28455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28455"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/project-maps-and-profiles/"><span class="grve-item">Project Maps and Profiles</span></a></div></li>-->
+                            <!--<li id="menu-item-28456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28456"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/project-performance-metrics/"><span class="grve-item">Project Performance Ratios</span></a></div></li>-->
+                            <!--<li id="menu-item-28457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28457"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/projected-issuances-from-registered-pipeline-projects/"><span class="grve-item">Issuance Projections from Known Projects</span></a></div></li>-->
+                            <!--<li id="menu-item-28442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28442"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/reports-commentary/"><span class="grve-item">Reports &#038; Commentary</span></a></div></li>-->
+                            <!--<li id="menu-item-31558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31558"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/data-methodology-note/"><span class="grve-item">Data &#038; Methodology Note</span></a></div></li>-->
+                            <!--<li id="menu-item-31557" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31557"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/user-guide-faqs/"><span class="grve-item">User Guide &#038; FAQs</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-46825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46825"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/"><span class="grve-item">Carbon Credit Integrity</span></a><div class="grve-arrow"></div></div><div class="grve-classic-sub-menu grve-sub-menu">-->
+                            <!--<ul class="sub-menu">-->
+                            <!--<li id="menu-item-46821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46821"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/market-wide-comparisons/"><span class="grve-item">Market-Wide Comparisons</span></a></div></li>-->
+                            <!--<li id="menu-item-46820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46820"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/project-profiles/"><span class="grve-item">Project Profiles</span></a></div></li>-->
+                            <!--<li id="menu-item-46823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46823"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/reports-commentary/"><span class="grve-item">Reports &#038; Commentary</span></a></div></li>-->
+                            <!--<li id="menu-item-46824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46824"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/data-methodology-note/"><span class="grve-item">Data &#038; Methodology Note</span></a></div></li>-->
+                            <!--<li id="menu-item-46822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46822"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/user-guide-faq/"><span class="grve-item">User Guide &#038; FAQ</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <!--<li id="menu-item-22656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22656"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/strategic-guides/"><span class="grve-item">Strategic Guides</span></a></div></li>-->
+                            <!--<li id="menu-item-21817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21817"><div class="grve-link-wrapper"><a href="https://trove-research.com/trove-intelligence-platform/corporate-climate-news/"><span class="grve-item">Corporate Climate News</span></a></div></li>-->
+                            <!--</ul>-->
+                            <!--</div></li>-->
+                            <li id="menu-item-20126"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20126 grve-first-level">
+                                <div class="grve-link-wrapper"><a href="{% url 'advisory' %}"><span
+                                            class="grve-item">Advisory</span></a></div>
+                            </li>
+                            <li id="menu-item-20029"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20029 grve-first-level">
+                                <div class="grve-link-wrapper"><a href="{% url 'careers' %}"><span
+                                            class="grve-item">Careers</span></a></div>
+                            </li>
+                            <li id="menu-item-20143"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20143 grve-first-level">
+                                <div class="grve-link-wrapper"><a href="{% url 'about-us' %}"><span
+                                            class="grve-item">About Us</span></a>
+                                    <div class="grve-arrow"></div>
+                                </div>
+                                <div class="grve-classic-sub-menu grve-sub-menu">
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-20192"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20192">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'our-team' %}"><span
+                                                        class="grve-item">Our Team</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20344"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20344">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'faqs' %}"><span
+                                                        class="grve-item">FAQs</span></a></div>
+                                        </li>
+                                        <li id="menu-item-20270"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/about-us/contact-us/"><span
+                                                        class="grve-item">Contact Us</span></a></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="menu-item-19902"
+                                class="hide-logged-in menu-item menu-item-type-custom menu-item-object-custom menu-item-19902 grve-first-level grve-menu-type-button grve-primary-1 grve-hover-black grve-shape-round">
+                                <div class="grve-link-wrapper"><a href="/auth/login"><span class="grve-item">Log
+                                            in</span></a></div>
+                            </li>
+                            <li id="menu-item-21869"
+                                class="show-logged-in menu-item menu-item-type-custom menu-item-object-custom menu-item-21869 grve-first-level grve-menu-type-button grve-primary-1 grve-hover-black grve-shape-round">
+                                <div class="grve-link-wrapper"><a href="/auth/logout"><span class="grve-item">Log
+                                            out</span></a></div>
+                            </li>
+                            <li id="menu-item-21870"
+                                class="show-logged-in menu-item menu-item-type-post_type menu-item-object-page menu-item-21870 grve-first-level grve-menu-type-button grve-primary-1 grve-hover-black grve-shape-round">
+                                <div class="grve-link-wrapper"><a href="https://trove-research.com/profile/"><span
+                                            class="grve-item">Profile</span></a></div>
+                            </li>
+                            <li id="menu-item-wpml-ls-117-en"
+                                class="menu-item-language menu-item-language-current menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-117-en grve-first-level">
+                                <div class="grve-link-wrapper"><a
+                                        href="{% url 'reports-and-commentary' %}"><span
+                                            class="grve-item"><img alt="English"
+                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                                                class="wpml-ls-flag lazyload"
+                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                    alt="English"
+                                                    data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                                                    class="wpml-ls-flag lazyload"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                        class="wpml-ls-flag"
+                                                        src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                                                        alt="English" /></noscript></noscript></span></a>
+                                    <div class="grve-arrow"></div>
+                                </div>
+                                <div class="grve-classic-sub-menu grve-sub-menu">
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-wpml-ls-117-fr"
+                                            class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-fr">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/fr/reports-commentary/"><span
+                                                        class="grve-item"><img alt="French"
+                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="French"
+                                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+                                                                    alt="French" /></noscript></noscript></span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-wpml-ls-117-es"
+                                            class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-es">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/es/reports-and-commentary/"><span
+                                                        class="grve-item"><img alt="Spanish"
+                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="Spanish"
+                                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+                                                                    alt="Spanish" /></noscript></noscript></span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-wpml-ls-117-pt-pt"
+                                            class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-pt-pt wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-pt-pt">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/pt-pt/reports-commentary/"><span
+                                                        class="grve-item"><img alt="Portuguese (Portugal)"
+                                                            data-src="https://trove-research.com/wp-content/uploads/flags/pt-br5.jpg"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="Portuguese (Portugal)"
+                                                                data-src="https://trove-research.com/wp-content/uploads/flags/pt-br5.jpg"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/uploads/flags/pt-br5.jpg"
+                                                                    alt="Portuguese (Portugal)" /></noscript></noscript></span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-wpml-ls-117-ar"
+                                            class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-ar wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-ar">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/ar/reports-commentary/"><span
+                                                        class="grve-item"><img alt="Arabic"
+                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="Arabic"
+                                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png"
+                                                                    alt="Arabic" /></noscript></noscript></span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-wpml-ls-117-ko"
+                                            class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-ko wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-ko">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/ko/reports-commentary/"><span
+                                                        class="grve-item"><img alt="Korean"
+                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="Korean"
+                                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png"
+                                                                    alt="Korean" /></noscript></noscript></span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-wpml-ls-117-ja"
+                                            class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-ja wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-ja">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/ja/reports-commentary/"><span
+                                                        class="grve-item"><img alt="Japanese"
+                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="Japanese"
+                                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png"
+                                                                    alt="Japanese" /></noscript></noscript></span></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="grve-main-responsive-header" data-sticky="simple" class="grve-simple-sticky">
+        <div class="grve-header-row">
+            <div class="grve-left-area">
+
+                <div class="grve-logo">
+                    <div class="grve-logo-inner">
+                        <a href="{% url 'index' %}">
+                            <img width="166" height="52" alt="Trove Research"
+                                data-src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                class="grve-logo-responsive lazyload"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                    width="166" height="52"
+                                    src="https://trove-research.com/wp-content/uploads/2022/06/Logo.svg"
+                                    class="grve-logo-responsive" alt="Trove Research" /></noscript> </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="grve-right-area">
+                <div class="grve-header-elements">
+                </div>
+                <a href="#grve-responsive-menu-area"
+                    class="grve-hidden-menu-icon grve-toggle-responsive-menu grve-position-right">
+                    <span class="screen-reader-text">Open Menu</span>
+                    <div class="grve-hidden-menu-inner">
+                        <span class="grve-item grve-burger-icon grve-style-1 grve-with-close">
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+                                <path
+                                    d="M24,17 L24,19 L0,19 L0,17 L24,17 Z M24,11 L24,13 L0,13 L0,11 L24,11 Z M24,5 L24,7 L0,7 L0,5 L24,5 Z">
+                                </path>
+                            </svg>
+                            <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+                                <path
+                                    d="M6.61289944,5.20970461 L6.70710678,5.29289322 L12,10.585 L17.2928932,5.29289322 L17.3871006,5.20970461 C17.7793918,4.90467972 18.3466228,4.93240926 18.7071068,5.29289322 C19.0976311,5.68341751 19.0976311,6.31658249 18.7071068,6.70710678 L18.7071068,6.70710678 L13.415,12 L18.7071068,17.2928932 C19.0976311,17.6834175 19.0976311,18.3165825 18.7071068,18.7071068 C18.3466228,19.0675907 17.7793918,19.0953203 17.3871006,18.7902954 L17.2928932,18.7071068 L12,13.415 L6.70710678,18.7071068 L6.61289944,18.7902954 C6.22060824,19.0953203 5.65337718,19.0675907 5.29289322,18.7071068 C4.90236893,18.3165825 4.90236893,17.6834175 5.29289322,17.2928932 L5.29289322,17.2928932 L10.585,12 L5.29289322,6.70710678 C4.90236893,6.31658249 4.90236893,5.68341751 5.29289322,5.29289322 C5.65337718,4.93240926 6.22060824,4.90467972 6.61289944,5.20970461 Z">
+                                </path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="grve-responsive-menu-area"
+        class="grve-hidden-area grve-animated-items grve-offcanvas-full-width grve-fade-in grve-offcanvas-position-center grve-small-width grve-align-left"
+        data-animation="fade-in" data-items-animation="fade-in" data-header-visibility="true">
+        <div class="grve-area-inner">
+            <div class="grve-area-scroller">
+                <div class="grve-area-container">
+                    <div class="grve-area-content grve-content">
+                        <div class="grve-area-top">
+                            <div class="grve-vertical-menu-wrapper">
+                                <nav id="grve-responsive-main-menu" class="grve-vertical-menu grve-slide-animation"
+                                    data-menu-type="slide" aria-label="Responsive">
+                                    <ul id="menu-main-menu-1" class="grve-menu">
+                                        <li
+                                            class="hide-logged-in menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20997 current_page_item menu-item-21005 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'reports-and-commentary' %}"
+                                                    aria-current="page"><span class="grve-item">Reports &#038;
+                                                        Commentary</span></a></div>
+                                        </li>
+                                        <li
+                                            class="show-logged-in menu-item menu-item-type-post_type menu-item-object-page menu-item-32043 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'reports-and-commentary' %}"><span
+                                                        class="grve-item">Reports &#038; Commentary</span></a></div>
+                                        </li>
+                                        <li
+                                            class="homemenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19965 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'intelligence-platform' %}"><span
+                                                        class="grve-item">Intelligence Platform</span></a>
+                                                <div class="grve-arrow"></div>
+                                            </div>
+                                            <div class="grve-classic-sub-menu grve-sub-menu">
+                                                <ul class="sub-menu">
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20127">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'corporate-climate-commitments' %}"><span
+                                                                    class="grve-item">Corporate Climate
+                                                                    Commitments</span></a></div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20244">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'carbon-credit-prices' %}"><span
+                                                                    class="grve-item">Carbon Credit Prices</span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20243">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'voluntary-carbon-market-forecasts' %}"><span
+                                                                    class="grve-item">VCM Forecasts</span></a></div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20242">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'policy-and-guidance' %}"><span
+                                                                    class="grve-item">Policy and Guidance</span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20241">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'carbon-projects-and-transactions' %}"><span
+                                                                    class="grve-item">Carbon Projects and
+                                                                    Transactions</span></a></div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46819">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'carbon-credit-integrity' %}"><span
+                                                                    class="grve-item">Carbon Credit Integrity</span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20296">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'corporate-climate-news' %}"><span
+                                                                    class="grve-item">Corporate Climate News</span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33228">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'strategic-guides' %}"><span
+                                                                    class="grve-item">Strategic Guides</span></a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="promenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20971 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'intelligence-platform' %}"><span
+                                                        class="grve-item">Intelligence Platform</span><span
+                                                        class="grve-label grve-bg-primary-2">PRO</span></a>
+                                                <div class="grve-arrow"></div>
+                                            </div>
+                                            <div class="grve-classic-sub-menu grve-sub-menu">
+                                                <ul class="sub-menu">
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20972">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'corporate-climate-commitments' %}"><span
+                                                                    class="grve-item">Corporate Climate
+                                                                    Commitments</span></a>
+                                                            <div class="grve-arrow"></div>
+                                                        </div>
+                                                        <div class="grve-classic-sub-menu grve-sub-menu">
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28435">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/tracking-corporate-climate-commitments/"><span
+                                                                                class="grve-item">Targets and Emissions
+                                                                                Tracker</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28432">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/corporate-climate-commitments-and-credit-demand-profiles/"><span
+                                                                                class="grve-item">Company
+                                                                                Profiles</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28433">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/global-credit-demand-forecasts/"><span
+                                                                                class="grve-item">Global Credit Demand
+                                                                                Forecasts</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28434">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/historic-corporate-credit-demand/"><span
+                                                                                class="grve-item">Credit Purchasing and
+                                                                                Retirement History</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28431">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/carbon-neutral-fuels/"><span
+                                                                                class="grve-item">Carbon Neutral
+                                                                                Fuels</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28430">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/reports-commentary/"><span
+                                                                                class="grve-item">Reports &#038;
+                                                                                Commentary</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31526">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/data-methodology-note/"><span
+                                                                                class="grve-item">Data &#038;
+                                                                                Methodology Note</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31528">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/user-guide-faqs/"><span
+                                                                                class="grve-item">User Guide &#038;
+                                                                                FAQs</span></a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20973">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/"><span
+                                                                    class="grve-item">Carbon Credit Prices</span></a>
+                                                            <div class="grve-arrow"></div>
+                                                        </div>
+                                                        <div class="grve-classic-sub-menu grve-sub-menu">
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28436">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/voluntary-carbon-market-pricing/"><span
+                                                                                class="grve-item">Trove Carbon Credit
+                                                                                Indices</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28437">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/standardised-contract-pricing/"><span
+                                                                                class="grve-item">Standardised Contract
+                                                                                Prices</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28438">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/regulated-carbon-market-pricing/"><span
+                                                                                class="grve-item">Compliance Market
+                                                                                Prices</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33300">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/credit-price-calculator/"><span
+                                                                                class="grve-item">Carbon Price
+                                                                                Calculator</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28448">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/reports-commentary/"><span
+                                                                                class="grve-item">Reports &#038;
+                                                                                Commentary</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31540">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/data-methodology-note/"><span
+                                                                                class="grve-item">Data &#038;
+                                                                                Methodology Note</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31539">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-prices/user-guide-faqs/"><span
+                                                                                class="grve-item">User Guide &#038;
+                                                                                FAQs</span></a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20974">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/"><span
+                                                                    class="grve-item">Voluntary Carbon Market
+                                                                    Forecasts</span></a>
+                                                            <div class="grve-arrow"></div>
+                                                        </div>
+                                                        <div class="grve-classic-sub-menu grve-sub-menu">
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28439">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/trove-research-price-forecasts/"><span
+                                                                                class="grve-item">Carbon Credit Price
+                                                                                Scenarios</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28440">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/corporate-climate-commitments/global-credit-demand-forecasts/"><span
+                                                                                class="grve-item">Global Credit Demand
+                                                                                Forecasts</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28441">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/projected-issuances-from-registered-pipeline-projects/"><span
+                                                                                class="grve-item">Issuance Projections
+                                                                                from Known Projects</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32416">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/supply-demand-gap-analysis/"><span
+                                                                                class="grve-item">Supply-Demand Gap
+                                                                                Analysis</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28447">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/reports-commentary/"><span
+                                                                                class="grve-item">Reports &#038;
+                                                                                Commentary</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31546">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/data-methodology-note/"><span
+                                                                                class="grve-item">Data &#038;
+                                                                                Methodology Note</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31545">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/voluntary-carbon-market-forecasts/user-guide-faqs/"><span
+                                                                                class="grve-item">User Guide &#038;
+                                                                                FAQs</span></a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20975">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/"><span
+                                                                    class="grve-item">Policy and Guidance</span></a>
+                                                            <div class="grve-arrow"></div>
+                                                        </div>
+                                                        <div class="grve-classic-sub-menu grve-sub-menu">
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20976">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/policy-update-database/"><span
+                                                                                class="grve-item">Policy Update
+                                                                                Database</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28449">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/consultation-tracker/"><span
+                                                                                class="grve-item">Consultation
+                                                                                Tracker</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28450">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/"><span
+                                                                                class="grve-item">Country
+                                                                                Profiles</span></a>
+                                                                        <div class="grve-arrow"></div>
+                                                                    </div>
+                                                                    <div class="grve-classic-sub-menu grve-sub-menu">
+                                                                        <ul class="sub-menu">
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43679">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/brazil-profile/"><span
+                                                                                            class="grve-item">Brazil</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47606">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/cambodia-profile/"><span
+                                                                                            class="grve-item">Cambodia</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46369">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/china-profile/"><span
+                                                                                            class="grve-item">China</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43665">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/colombia-profile/"><span
+                                                                                            class="grve-item">Colombia</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43673">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/democratic-republic-of-congo-profile/"><span
+                                                                                            class="grve-item">Democratic
+                                                                                            Republic of Congo</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48312">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/ecuador-profile/"><span
+                                                                                            class="grve-item">Ecuador</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47808">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/india-profile/"><span
+                                                                                            class="grve-item">India</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43671">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/indonesia-profile/"><span
+                                                                                            class="grve-item">Indonesia</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43674">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/kenya-profile/"><span
+                                                                                            class="grve-item">Kenya</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43670">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/mexico-profile/"><span
+                                                                                            class="grve-item">Mexico</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43669">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/peru-profile/"><span
+                                                                                            class="grve-item">Peru</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43668">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/south-africa-profile/"><span
+                                                                                            class="grve-item">South
+                                                                                            Africa</span></a></div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46365">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/tanzania-profile/"><span
+                                                                                            class="grve-item">Tanzania</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47720">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/turkey-profile/"><span
+                                                                                            class="grve-item">Türkiye</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43666">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/usa-profile/"><span
+                                                                                            class="grve-item">USA</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43667">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/vietnam-profile/"><span
+                                                                                            class="grve-item">Vietnam</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li
+                                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43654">
+                                                                                <div class="grve-link-wrapper"><a
+                                                                                        href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/country-profiles/zambia-profile/"><span
+                                                                                            class="grve-item">Zambia</span></a>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28452">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/stakeholder-mapping/"><span
+                                                                                class="grve-item">Stakeholder
+                                                                                Mapping</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48314">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/set-policy-alerts/"><span
+                                                                                class="grve-item">Set Policy
+                                                                                Alerts</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28445">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/reports-commentary/"><span
+                                                                                class="grve-item">Reports &#038;
+                                                                                Commentary</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31552">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/data-methodology-note/"><span
+                                                                                class="grve-item">Data &#038;
+                                                                                Methodology Note</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31551">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/policy-and-guidance/user-guide-faqs/"><span
+                                                                                class="grve-item">User Guide &#038;
+                                                                                FAQs</span></a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20978">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/"><span
+                                                                    class="grve-item">Carbon Projects and
+                                                                    Transactions</span></a>
+                                                            <div class="grve-arrow"></div>
+                                                        </div>
+                                                        <div class="grve-classic-sub-menu grve-sub-menu">
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28453">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/issuances-and-retirements/"><span
+                                                                                class="grve-item">Issuances and
+                                                                                Retirements</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28454">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/pipeline-capacity/"><span
+                                                                                class="grve-item">Pipeline
+                                                                                Capacity</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28455">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/project-maps-and-profiles/"><span
+                                                                                class="grve-item">Project Maps and
+                                                                                Profiles</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28456">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/project-performance-metrics/"><span
+                                                                                class="grve-item">Project Performance
+                                                                                Ratios</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28457">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/projected-issuances-from-registered-pipeline-projects/"><span
+                                                                                class="grve-item">Issuance Projections
+                                                                                from Known Projects</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28442">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/reports-commentary/"><span
+                                                                                class="grve-item">Reports &#038;
+                                                                                Commentary</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31558">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/data-methodology-note/"><span
+                                                                                class="grve-item">Data &#038;
+                                                                                Methodology Note</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31557">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-projects-and-transactions/user-guide-faqs/"><span
+                                                                                class="grve-item">User Guide &#038;
+                                                                                FAQs</span></a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46825">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/"><span
+                                                                    class="grve-item">Carbon Credit Integrity</span></a>
+                                                            <div class="grve-arrow"></div>
+                                                        </div>
+                                                        <div class="grve-classic-sub-menu grve-sub-menu">
+                                                            <ul class="sub-menu">
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46821">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/market-wide-comparisons/"><span
+                                                                                class="grve-item">Market-Wide
+                                                                                Comparisons</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46820">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/project-profiles/"><span
+                                                                                class="grve-item">Project
+                                                                                Profiles</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46823">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/reports-commentary/"><span
+                                                                                class="grve-item">Reports &#038;
+                                                                                Commentary</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46824">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/data-methodology-note/"><span
+                                                                                class="grve-item">Data &#038;
+                                                                                Methodology Note</span></a></div>
+                                                                </li>
+                                                                <li
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46822">
+                                                                    <div class="grve-link-wrapper"><a
+                                                                            href="https://trove-research.com/trove-intelligence-platform/carbon-credit-integrity/user-guide-faq/"><span
+                                                                                class="grve-item">User Guide &#038;
+                                                                                FAQ</span></a></div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22656">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/strategic-guides/"><span
+                                                                    class="grve-item">Strategic Guides</span></a></div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21817">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/trove-intelligence-platform/corporate-climate-news/"><span
+                                                                    class="grve-item">Corporate Climate News</span></a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20126 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'advisory' %}"><span
+                                                        class="grve-item">Advisory</span></a></div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20029 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'careers' %}"><span
+                                                        class="grve-item">Careers</span></a></div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20143 grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'about-us' %}"><span
+                                                        class="grve-item">About Us</span></a>
+                                                <div class="grve-arrow"></div>
+                                            </div>
+                                            <div class="grve-classic-sub-menu grve-sub-menu">
+                                                <ul class="sub-menu">
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20192">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'our-team' %}"><span
+                                                                    class="grve-item">Our Team</span></a></div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20344">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="{% url 'faqs' %}"><span
+                                                                    class="grve-item">FAQs</span></a></div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20270">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/about-us/contact-us/"><span
+                                                                    class="grve-item">Contact Us</span></a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="hide-logged-in menu-item menu-item-type-custom menu-item-object-custom menu-item-19902 grve-first-level grve-menu-type-button grve-primary-1 grve-hover-black grve-shape-round">
+                                            <div class="grve-link-wrapper"><a href="/auth/login"><span
+                                                        class="grve-item">Log in</span></a></div>
+                                        </li>
+                                        <li
+                                            class="show-logged-in menu-item menu-item-type-custom menu-item-object-custom menu-item-21869 grve-first-level grve-menu-type-button grve-primary-1 grve-hover-black grve-shape-round">
+                                            <div class="grve-link-wrapper"><a href="/auth/logout"><span
+                                                        class="grve-item">Log out</span></a></div>
+                                        </li>
+                                        <li
+                                            class="show-logged-in menu-item menu-item-type-post_type menu-item-object-page menu-item-21870 grve-first-level grve-menu-type-button grve-primary-1 grve-hover-black grve-shape-round">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="https://trove-research.com/profile/"><span
+                                                        class="grve-item">Profile</span></a></div>
+                                        </li>
+                                        <li
+                                            class="menu-item-language menu-item-language-current menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-117-en grve-first-level">
+                                            <div class="grve-link-wrapper"><a
+                                                    href="{% url 'reports-and-commentary' %}"><span
+                                                        class="grve-item"><img alt="English"
+                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                                                            class="wpml-ls-flag lazyload"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                alt="English"
+                                                                data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                                                                class="wpml-ls-flag lazyload"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                    class="wpml-ls-flag"
+                                                                    src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+                                                                    alt="English" /></noscript></noscript></span></a>
+                                                <div class="grve-arrow"></div>
+                                            </div>
+                                            <div class="grve-classic-sub-menu grve-sub-menu">
+                                                <ul class="sub-menu">
+                                                    <li
+                                                        class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-fr">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/fr/reports-commentary/"><span
+                                                                    class="grve-item"><img alt="French"
+                                                                        data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+                                                                        class="wpml-ls-flag lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            alt="French"
+                                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+                                                                            class="wpml-ls-flag lazyload"
+                                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                                class="wpml-ls-flag"
+                                                                                src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+                                                                                alt="French" /></noscript></noscript></span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-es">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/es/reports-and-commentary/"><span
+                                                                    class="grve-item"><img alt="Spanish"
+                                                                        data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+                                                                        class="wpml-ls-flag lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            alt="Spanish"
+                                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+                                                                            class="wpml-ls-flag lazyload"
+                                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                                class="wpml-ls-flag"
+                                                                                src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+                                                                                alt="Spanish" /></noscript></noscript></span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-pt-pt wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-pt-pt">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/pt-pt/reports-commentary/"><span
+                                                                    class="grve-item"><img alt="Portuguese (Portugal)"
+                                                                        data-src="https://trove-research.com/wp-content/uploads/flags/pt-br5.jpg"
+                                                                        class="wpml-ls-flag lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            alt="Portuguese (Portugal)"
+                                                                            data-src="https://trove-research.com/wp-content/uploads/flags/pt-br5.jpg"
+                                                                            class="wpml-ls-flag lazyload"
+                                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                                class="wpml-ls-flag"
+                                                                                src="https://trove-research.com/wp-content/uploads/flags/pt-br5.jpg"
+                                                                                alt="Portuguese (Portugal)" /></noscript></noscript></span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-ar wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-ar">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/ar/reports-commentary/"><span
+                                                                    class="grve-item"><img alt="Arabic"
+                                                                        data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png"
+                                                                        class="wpml-ls-flag lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            alt="Arabic"
+                                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png"
+                                                                            class="wpml-ls-flag lazyload"
+                                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                                class="wpml-ls-flag"
+                                                                                src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ar.png"
+                                                                                alt="Arabic" /></noscript></noscript></span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-ko wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-ko">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/ko/reports-commentary/"><span
+                                                                    class="grve-item"><img alt="Korean"
+                                                                        data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png"
+                                                                        class="wpml-ls-flag lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            alt="Korean"
+                                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png"
+                                                                            class="wpml-ls-flag lazyload"
+                                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                                class="wpml-ls-flag"
+                                                                                src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png"
+                                                                                alt="Korean" /></noscript></noscript></span></a>
+                                                        </div>
+                                                    </li>
+                                                    <li
+                                                        class="menu-item-language menu-item wpml-ls-slot-117 wpml-ls-item wpml-ls-item-ja wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-117-ja">
+                                                        <div class="grve-link-wrapper"><a
+                                                                href="https://trove-research.com/ja/reports-commentary/"><span
+                                                                    class="grve-item"><img alt="Japanese"
+                                                                        data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png"
+                                                                        class="wpml-ls-flag lazyload"
+                                                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                            alt="Japanese"
+                                                                            data-src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png"
+                                                                            class="wpml-ls-flag lazyload"
+                                                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
+                                                                                class="wpml-ls-flag"
+                                                                                src="https://trove-research.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png"
+                                                                                alt="Japanese" /></noscript></noscript></span></a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="grve-area-bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>

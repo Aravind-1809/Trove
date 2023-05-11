@@ -1,0 +1,549 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+
+
+<div id="grve-indicator" class=" grve-style-1 grve-blend">
+    <div class="grve-default"></div>
+    <div class="grve-inner grve-ind-arrow"> <svg width="40px" height="16px" viewBox="0 0 40 16">
+            <polygon class="grve-arrow-line" points="0 7 38 7 38 9 0 9"></polygon>
+            <polygon class="grve-arrow-point"
+                points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809"></polygon>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-search"> <svg width="24px" height="24px" viewBox="0 0 24 24"
+            stroke-width="0">
+            <path
+                d="M11,3 C15.418278,3 19,6.581722 19,11 C19,13.1038245 18.1879088,15.0179749 16.860099,16.4460786 L20.2071068,19.7928932 C20.5976311,20.1834175 20.5976311,20.8165825 20.2071068,21.2071068 C19.8466228,21.5675907 19.2793918,21.5953203 18.8871006,21.2902954 L18.7928932,21.2071068 L15.3199029,17.7345448 C14.0739277,18.5354376 12.5912161,19 11,19 C6.581722,19 3,15.418278 3,11 C3,6.581722 6.581722,3 11,3 Z M11,5 C7.6862915,5 5,7.6862915 5,11 C5,14.3137085 7.6862915,17 11,17 C14.3137085,17 17,14.3137085 17,11 C17,7.6862915 14.3137085,5 11,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-plus"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-arrows-left-right"> <svg width="24px" height="24px" viewBox="0 0 24 24">
+            <path d="M20,8 L24,12 L20,16 L19,15 L22,12 L19,9 L20,8 Z M4,8 L5,9 L2,12 L5,15 L4,16 L0,12 L4,8 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-text"><span class="grve-link-text"></span></div>
+    <div class="grve-ind-content"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+</div>
+<div id="grve-theme-content">
+
+    <div id="grve-post-title" class="grve-title-section grve-with-image grve-medium-height grve-bg-primary-1"
+        data-height="medium">
+        <div class="grve-wrapper" style="min-height:300px;">
+            <div class="grve-content grve-align-center-bottom" data-animation="none">
+                <div class="grve-container">
+                    <div class="grve-title-content-wrapper grve-bg-none grve-align-left grve-content-container">
+                        <div class="grve-subheading grve-title-categories clearfix grve-text-white">
+                            <div class="grve-categories">
+                                <ul >
+                                    <li><a class="commentry-button" href="{% url 'category/commentary' %}">Commentary</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h1 class="grve-title grve-post-title grve-text-white"><span>REDD.plus – A green idea,
+                                but too many red flags</span></h1>
+                        <div class="grve-title-meta-content grve-text-white">
+                            <ul>
+                                <li id="align-banner" class="grve-post-date">
+                                    <time datetime="2022-10-19T15:13:41+01:00">
+                                        19 October 2022 </time>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grve-background-wrapper">
+            <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-31395"
+                style="background-image: url(https://troveresearstg.wpengine.com/wp-content/uploads/2022/10/commentary-2.png);">
+            </div>
+        </div>
+    </div>
+
+    <div class="grve-single-wrapper">
+
+        <div id="grve-content" class="clearfix">
+            <div id="grve-page-breadcrumbs" class="grve-breadcrumbs clearfix grve-align-left">
+                <div class="grve-breadcrumbs-wrapper">
+                    <div class="grve-container">
+                        <nav id="grve-yoast-breadcrumbs" class="grve-yoast-breadcrumbs grve-small-text"
+                            aria-label="Breadcrumbs">
+                            <span>
+                                <span><a href="{% url 'index' %}">Home</a> /
+                                    <span><a href="{% url 'reports-and-commentary' %}">Reports and Commentary</a> /
+                                        <span class="breadcrumb_last" aria-current="page">
+                                            REDD.plus – A green idea, but too many red flags
+                                        </span></span></span></span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-content-wrapper">
+
+                <div id="grve-main-content">
+                    <div class="grve-main-content-wrapper clearfix">
+                        <article id="post-31340"
+                            class="post-31340 post type-post status-publish format-standard has-post-thumbnail hentry category-commentary category-free tag-carbon-credit-integrity tag-carbon-projects-and-transactions tag-commentary tag-free-report tag-policy-and-guidance grve-entry-item grve-blog-item"
+                            itemscope itemType="http://schema.org/BlogPosting">
+                            <div id="grve-single-content">
+                                <h2 class="grve-hidden" itemprop="headline">REDD.plus – A green idea, but too
+                                    many red flags</h2>
+                                <div itemprop="articleBody">
+                                    <div class="grve-container pad">
+                                        <p><span data-contrast="auto">The potential for &#8220;REDD.plus&#8221;
+                                                to dump huge quantities of carbon credits into the voluntary
+                                                carbon market has caused consternation in some parts of the
+                                                market. It was definitely a hot topic at the many carbon events
+                                                in London last week. This article by Trove&#8217;s forestry team
+                                                assesses the intentions and short-comings of REDD.plus and its
+                                                implications for the market.</span></p>
+                                        <p><span data-contrast="auto">In 2021 the Coalition for Rainforest
+                                                Nations (CfRN) launched <a
+                                                    href="https://www.redd.plus/">REDD.plus</a>, a new platform
+                                                for country-level carbon credits from forests. Papua New Guinea
+                                                was the first country to join and now offers over 9 million
+                                                ‘REDD+ Result Units’ (RRUs) at USD 16/tonne. Gabon, Ghana, and
+                                                Honduras have registered their interest. Gabon alone plans to
+                                                issue 90 million RRUs before the end of this year.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">The CfRN defines RRUs as <a
+                                                    href="https://deutschewealth.com/content/dam/deutschewealth/cio-perspectives/cio-special-assets/unfccc-redd-sovereign-carbon/CIO-Special-UNFCCC-REDD-power-of-sovereign-carbon.pdf">sovereign
+                                                    carbon ‘credits’</a> issued by countries themselves. It
+                                                claims that this sovereignty makes them <a
+                                                    href="https://www.forbes.com/sites/kensilverstein/2022/06/22/not-all-carbon-credits-are-created-equal-heres-what-companies-must-know/?sh=279430b95328">superior</a>
+                                                to jurisdictional and project-based REDD+ credits for having
+                                                higher integrity, and being more transparent and more effective
+                                                at protecting tropical forests.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">Unlike jurisdictional-scale standards,
+                                                such as ART-TREES or Verra’s JNR, REDD.plus did not develop a
+                                                methodology. Instead, it uses emission reductions reported to
+                                                the UNFCCC according to the Warsaw Framework for REDD+, part of
+                                                the Paris Agreement. REDD.plus and participating countries
+                                                convert these reported reductions one-to-one into RRUs. This has
+                                                led to concerns that REDD.plus will <a
+                                                    href="https://carbon-pulse.com/167887/">‘flood’</a> the
+                                                market; 90 million prospective RRUs from Gabon would be close to
+                                                the total number of REDD+ credits issued in 2021 (117
+                                                million).</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">From our analysis, we find that the
+                                                methodological risks and general red flags of REDD.plus severely
+                                                compromise any credits issued.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <table data-tablestyle="MsoTableGrid" data-tablelook="1696"
+                                            aria-rowcount="2">
+                                            <tbody >
+                                                <tr aria-rowindex="1">
+                                                    <td data-celllook="69905"><b><span 
+                                                                data-contrast="none">Methodological
+                                                                risks:</span></b><span
+                                                            data-ccp-props="{&quot;201341983&quot;:0,&quot;335559685&quot;:113,&quot;335559737&quot;:113,&quot;335559738&quot;:120,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                        </span></td>
+                                                    <td data-celllook="69905"><b><span
+                                                                data-contrast="none">General red
+                                                                flags:</span></b><span
+                                                            data-ccp-props="{&quot;201341983&quot;:0,&quot;335559685&quot;:113,&quot;335559737&quot;:113,&quot;335559738&quot;:120,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                        </span></td>
+                                                </tr>
+                                                <tr aria-rowindex="2">
+                                                    <td data-celllook="69905">
+                                                        <ul>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Baseline
+                                                                    inflation</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Poor
+                                                                    quantification</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Insufficient validation
+                                                                    and verification</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Lack of permanence
+                                                                    safeguards</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                        </ul>
+                                                    </td>
+                                                    <td data-celllook="69905">
+                                                        <ul>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">The UNFCCC secretariat
+                                                                    does not recognise their definition of a
+                                                                    ‘UNFCCC REDD+ mechanism’</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Did not receive CORSIA
+                                                                    eligibility &#8211; twice</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Low levels of interest
+                                                                    in the market</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Uncertainty on free,
+                                                                    prior and informed consent</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                            <li style="text-align: left;" data-leveltext=""
+                                                                data-font="Symbol" data-listid="5"
+                                                                data-list-defn-props="{&quot;335551671&quot;:0,&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:475,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                                                aria-setsize="-1" data-aria-posinset="0"
+                                                                data-aria-level="1"><span
+                                                                    data-contrast="none">Lack of transparency on
+                                                                    distribution of funds</span><span
+                                                                    data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                                                </span></li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p><strong><em>Low methodological rigour</em> </strong></p>
+                                        <p><span data-contrast="auto">Through the Warsaw Framework, countries
+                                                can track and receive support for REDD+ activities by submitting
+                                                forest reference levels (FRLs) or forest reference emission
+                                                levels (FRELs) and reporting emission reductions against these
+                                                baselines. They may receive result-based payments, as Brazil and
+                                                other tropical forest countries have done with Norway.
+                                            </span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">The CfRN refers to these activities as the
+                                                ‘UNFCCC REDD+ mechanism’, a characterisation that the UNFCCC
+                                                secretariat has <a
+                                                    href="https://redd-monitor.org/2022/09/27/gabon-is-well-on-the-way-to-fulfil-all-requirements-to-become-eligible-to-obtain-and-receive-payments-for-results-based-redd-actions-interview-with-dirk-nemitz-unfccc-secretariat/">refuted.</a>
+                                                Simply put, the Warsaw Framework is not a UNFCCC REDD+ credit
+                                                mechanism, and it was not designed to generate individual
+                                                credits. As a results-based payments scheme, the payer must
+                                                decide if the reductions are robust and how many ‘results’ they
+                                                will pay for, often performing additional oversight themselves.
+                                                The process does not always provide the methodological rigour to
+                                                issue credits that each represent one tonne of emissions
+                                                reduced, which may cause significant misestimations.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">For example, there are fewer restrictions
+                                                on setting a historical reference period. Brazil and Indonesia
+                                                used reference periods of up to 20 years in their submissions,
+                                                creating higher baseline emissions from deforestation than
+                                                shorter periods would have produced. In comparison, ART-TREES
+                                                requires a reference period of 5 years. The use of
+                                                low-resolution and low-volume datasets, <a
+                                                    href="https://www.wri.org/research/comparing-global-and-national-approaches-estimating-deforestation-rates-redd-countries">high
+                                                    variability</a> in how forest area is defined, and whether
+                                                natural and planted forests are classed separately add to the
+                                                concerns about how many credits could be issued.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">Some of these methodological problems may
+                                                also occur in low-quality project-based REDD+, but the scale of
+                                                inaccurate values across a whole country is more
+                                                significant.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><em><strong>Independent verification &amp; validation is
+                                                    insufficient</strong></em><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">In the Warsaw Framework’s process, experts
+                                                nominated by countries review national submissions before
+                                                results are publicly posted to the UNFCCC REDD+ <a
+                                                    href="https://redd.unfccc.int/fact-sheets/forest-reference-emission-levels.html">Infohub</a>.
+                                                Reviewers may suggest changes to the initial submissions of FRLs
+                                                and FRELs, leading to revised submissions, but no baselines are
+                                                ever rejected. While the experts assess submissions for
+                                                methodological consistency, the actual emission baselines or
+                                                reductions reported are not verified. The Warsaw Framework also
+                                                does not define ‘credits’, thus offering no process for how this
+                                                ‘mechanism’ could be used to issue them.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">To decrease the risk of low-quality
+                                                credits being issued, ART and Verra use independent verification
+                                                and validation bodies (VVBs) to check and reject projects.
+                                                Participants in result-based payment schemes listed by the
+                                                UNFCCC’s hub, like Norway and the Green Climate Fund (GCF), use
+                                                third-party VVBs to double-check a country’s reported emission
+                                                reductions before choosing to issue payments. REDD.plus employs
+                                                no such independent verification or validation. It accepts
+                                                results reported to the UNFCCC at face value, no matter the
+                                                potential inaccuracies.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><strong><em>No permanence safeguards</em> </strong></p>
+                                        <p><span data-contrast="auto">The REDD.plus approach lacks a range of
+                                                safeguards for issuing and trading offset credits. </span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">The most significant risk is the lack of a
+                                                buffer pool. Both Verra and ART require REDD+ projects (local
+                                                and jurisdictional) to contribute a percentage of their credits
+                                                to a registry-wide buffer pool. If an area of forest is lost,
+                                                the pool can cover the loss by retiring an appropriate number of
+                                                credits. For example, if Papua New Guinea had issued 9 million
+                                                emission reductions with ART TREES instead of REDD.plus, up to
+                                                2.2 million credits would not have been issued to protect the
+                                                integrity of the rest.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">REDD.plus has no clear methodology to
+                                                safeguard permanence. There is no buffer pool, no uncertainty
+                                                deduction, and no monitoring for reversals. Every emission
+                                                reduction reported to the UNFCCC is converted to an RRU. This
+                                                compromises the link between purchased carbon credit and actual
+                                                emission reduction. In fact, REDD.plus was rejected by CORSIA
+                                                twice on the grounds that ICAO decided that it could not assess
+                                                if it had the basic features of a crediting
+                                                programme.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><em><strong>The future of REDD.plus</strong></em><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">There is no intrinsic problem with
+                                                developing markets investigating new ways to raise funds for
+                                                their natural habitats, high forest cover countries included.
+                                                What we cover here are our concerns with REDD.plus itself in
+                                                claiming to be selling carbon ‘credits’. </span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">While jurisdictional REDD+ is still seen
+                                                as ‘high-quality’, the market does not seem to trust REDD.plus.
+                                                After being available for a year, only 20,000 RRUs have been
+                                                sold. This compares to 57 million retirements of verified REDD+
+                                                credits in the same period. The ‘flooding’ of the market has not
+                                                materialised, and we think that further RRU issuances are
+                                                unlikely to change that.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">Additionally, with a price of USD 16,
+                                                Papua New Guinea’s 2014 and 2015 vintage RRUs are double the
+                                                price of verified REDD+ credits from similar vintages, which
+                                                averaged USD 8.80 in Sept 2022. <a
+                                                    href="https://redd-monitor.org/wp-content/uploads/2021/05/CG_Forcert-Media-Statement-38x7-1.pdf">No
+                                                    details</a> are provided on how a share of revenue will
+                                                reach local communities, nor was any engagement carried out in
+                                                Papua New Guinea to ensure free, prior, and informed
+                                                consent.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                        <p><span data-contrast="auto">Ultimately, purchasing credits from
+                                                REDD.plus is like engaging in a miniature result-based payment
+                                                scheme. Its ‘credits’ are not rigorous enough to offset or
+                                                compensate for emissions, whether ‘sovereign’ or not. We cannot
+                                                recommend that they are considered equivalent, let alone
+                                                ‘superior’, to high-quality project-based REDD+ or
+                                                jurisdictional REDD+ credits when available.</span><span
+                                                data-ccp-props="{&quot;201341983&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:120,&quot;335559740&quot;:276}">
+                                            </span></p>
+                                    </div>
+                                </div>
+                                <span class="grve-hidden">
+                                    <span class="grve-structured-data" itemprop="image" itemscope
+                                        itemtype="http://schema.org/ImageObject">
+                                        <span
+                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1.jpeg</span>
+                                        <span itemprop='height'>1200</span>
+                                        <span itemprop='width'>1200</span>
+                                    </span>
+                                    <span class="grve-structured-data" itemprop="author" itemscope
+                                        itemtype="http://schema.org/Person">
+                                        <span itemprop="name">Trove Research</span>
+                                    </span>
+                                    <span class="grve-structured-data" itemprop="publisher" itemscope
+                                        itemtype="http://schema.org/Organization">
+                                        <span itemprop='name'>Trove Research</span>
+                                        <span itemprop='logo' itemscope
+                                            itemtype='http://schema.org/ImageObject'>
+                                            <span
+                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2022/10/MicrosoftTeams-image-23-e1666358019119-1.jpeg</span>
+                                        </span>
+                                    </span>
+                                    <time class="grve-structured-data" itemprop="datePublished"
+                                        datetime="2022-10-19T15:13:41+01:00">19 October 2022</time>
+                                    <time class="grve-structured-data" itemprop="dateModified"
+                                        datetime="2023-03-01T14:53:50+00:00">1 March 2023</time>
+                                    <span class="grve-structured-data" itemprop="mainEntityOfPage" itemscope
+                                        itemtype="http://schema.org/WebPage"
+                                        itemid="https://trove-research.com/commentary/redd-plus/"></span>
+                                </span>
+                            </div>
+                        </article>
+                        <div class="grve-single-section">
+                            <div class="grve-container">
+                                <div class="grve-single-post-tags grve-margin-top-2x">
+                                    <ul class="grve-tags grve-h6 grve-border">
+                                        <ul class="grve-tags grve-h6 grve-border">
+                                            <li><a
+                                                    href="{% url 'tag-carbon-credit-integrity' %}">Carbon
+                                                    Credit Integrity</a></li>
+                                            <ul class="grve-tags grve-h6 grve-border">
+                                                <li><a
+                                                        href="{% url 'tag-carbon-projects-and-transactions' %}">Carbon
+                                                        Projects and Transactions</a></li>
+                                                <ul class="grve-tags grve-h6 grve-border">
+                                                    <li><a
+                                                            href="{% url 'tag-commentary' %}">Commentary</a>
+                                                    </li>
+                                                    <ul class="grve-tags grve-h6 grve-border">
+                                                        <li><a
+                                                                href="{% url 'tag-free-report' %}">Free
+                                                                Report</a></li>
+                                                        <ul class="grve-tags grve-h6 grve-border">
+                                                            <li><a
+                                                                    href="{% url 'tag-policy-and-guidance' %}">Policy
+                                                                    and Guidance</a></li>
+                                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="section-footer /">
+    <div class="templatera_shortcode">
+        <p>
+        <div class="grve-section grve-row-section grve-fullwidth-background section-book-demo grve-padding-top-2x grve-padding-bottom-2x grve-headings-white grve-with-bg-image"
+            data-header-color="default" style="color:#ffffff;">
+            <div class="grve-container">
+                <div class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                    <div class="grve-column wpb_column grve-bookmark grve-column-1  grve-with-bg-transparent">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content">
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <div class="grve-element grve-callout">
+                                    <div class="grve-callout-wrapper">
+                                        <h3 class="grve-callout-content grve-h3">Book a demo</h3>
+                                        <p class="">To find out how your organisation can benefit from Trove’s
+                                            Intelligence Platform, schedule a demo with our team.</p>
+                                    </div>
+                                    <div class="grve-button-wrapper"><a
+                                            href="/contact-us/?subject=Book%20a%20demo" title="Book a demo"
+                                            class="grve-btn grve-round grve-bg-primary-1 grve-border-primary-1 grve-bg-hover-black grve-border-hover-black grve-text-white grve-text-hover-white grve-btn-medium">
+                                            <span>Book a demo</span>
+                                        </a></div>
+                                </div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-background-wrapper">
+                <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-19925"
+                    style="background-image: url(https://trove-research.com/wp-content/uploads/2022/07/bookdemo.jpg);">
+                </div>
+                <div class="grve-bg-overlay grve-bg-primary-2 grve-opacity-40"></div>
+            </div>
+        </div>
+        </p>
+    </div>
+    <div class="templatera_shortcode">
+        <div class="grve-section grve-row-section grve-fullwidth-background section-subscribe grve-padding-top-2x grve-padding-bottom-2x grve-with-bg-image"
+            data-header-color="default">
+            <div class="grve-container">
+                <div class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                    <div class="grve-column wpb_column grve-bookmark grve-column-1-2  grve-headings-white grve-with-bg-transparent"
+                        style="color:#ffffff;">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content">
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <h3 class="grve-element grve-title grve-align-inherit grve-h3"><span>Subscribe
+                                        to Corporate Climate Weekly</span></h3>
+                                <div class="grve-element grve-text">
+                                    <p>Sign up to receive a weekly digest on corporate climate commitments and
+                                        action from around the world.</p>
+                                </div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <div class="grve-element grve-align-inherit"><a href="/auth/register"
+                                        class="grve-btn grve-square grve-bg-primary-1 grve-border-primary-1 grve-bg-hover-black grve-border-hover-black grve-text-white grve-text-hover-white grve-btn-medium">
+                                        <span>SIGN UP</span>
+                                    </a></div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="grve-column wpb_column grve-bookmark grve-column-1-2  grve-with-bg-transparent grve-empty-column">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-background-wrapper">
+                <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-19501"
+                    style="background-image: url(https://trove-research.com/wp-content/uploads/2022/07/Group-56.jpg);">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

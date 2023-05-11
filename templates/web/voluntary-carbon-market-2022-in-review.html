@@ -1,0 +1,300 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+
+
+<div id="grve-indicator" class=" grve-style-1 grve-blend">
+    <div class="grve-default"></div>
+    <div class="grve-inner grve-ind-arrow"> <svg width="40px" height="16px" viewBox="0 0 40 16">
+            <polygon class="grve-arrow-line" points="0 7 38 7 38 9 0 9"></polygon>
+            <polygon class="grve-arrow-point"
+                points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809"></polygon>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-search"> <svg width="24px" height="24px" viewBox="0 0 24 24"
+            stroke-width="0">
+            <path
+                d="M11,3 C15.418278,3 19,6.581722 19,11 C19,13.1038245 18.1879088,15.0179749 16.860099,16.4460786 L20.2071068,19.7928932 C20.5976311,20.1834175 20.5976311,20.8165825 20.2071068,21.2071068 C19.8466228,21.5675907 19.2793918,21.5953203 18.8871006,21.2902954 L18.7928932,21.2071068 L15.3199029,17.7345448 C14.0739277,18.5354376 12.5912161,19 11,19 C6.581722,19 3,15.418278 3,11 C3,6.581722 6.581722,3 11,3 Z M11,5 C7.6862915,5 5,7.6862915 5,11 C5,14.3137085 7.6862915,17 11,17 C14.3137085,17 17,14.3137085 17,11 C17,7.6862915 14.3137085,5 11,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-plus"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-arrows-left-right"> <svg width="24px" height="24px" viewBox="0 0 24 24">
+            <path d="M20,8 L24,12 L20,16 L19,15 L22,12 L19,9 L20,8 Z M4,8 L5,9 L2,12 L5,15 L4,16 L0,12 L4,8 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-text"><span class="grve-link-text"></span></div>
+    <div class="grve-ind-content"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+</div>
+<div id="grve-theme-content">
+
+    <div id="grve-post-title" class="grve-title-section grve-with-image grve-medium-height grve-bg-primary-1"
+        data-height="medium">
+        <div class="grve-wrapper" style="min-height:300px;">
+            <div class="grve-content grve-align-center-bottom" data-animation="none">
+                <div class="grve-container">
+                    <div class="grve-title-content-wrapper grve-bg-none grve-align-left grve-content-container">
+                        <div class="grve-subheading grve-title-categories clearfix grve-text-white">
+                            <div class="grve-categories">
+                                <ul>
+                                    <li><a class="commentry-button" href="{% url 'category/webinar' %}">Webinar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h1 class="grve-title grve-post-title grve-text-white"><span>VCM: 2022 in review</span>
+                        </h1>
+                        <div class="grve-title-meta-content grve-text-white">
+                            <ul >
+                                <li id="align-banner" class="grve-post-date">
+                                    <time datetime="2023-01-18T10:13:53+00:00">
+                                        18 January 2023 </time>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grve-background-wrapper">
+            <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-44048"
+                style="background-image: url(https://troveresearstg.wpengine.com/wp-content/uploads/2022/10/webinar-1.png);">
+            </div>
+        </div>
+    </div>
+
+    <div class="grve-single-wrapper">
+
+        <div id="grve-content" class="clearfix">
+            <div id="grve-page-breadcrumbs" class="grve-breadcrumbs clearfix grve-align-left">
+                <div class="grve-breadcrumbs-wrapper">
+                    <div class="grve-container">
+                        <nav id="grve-yoast-breadcrumbs" class="grve-yoast-breadcrumbs grve-small-text"
+                            aria-label="Breadcrumbs">
+                            <span>
+                                <span><a href="{% url 'index' %}">Home</a> /
+                                    <span><a href="{% url 'reports-and-commentary' %}">Reports and Commentary</a> /
+                                        <span class="breadcrumb_last" aria-current="page">
+                                            VCM: 2022 in review </span></span></span></span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-content-wrapper">
+
+                <div id="grve-main-content">
+                    <div class="grve-main-content-wrapper clearfix">
+                        <article id="post-33571"
+                            class="post-33571 post type-post status-publish format-standard has-post-thumbnail hentry category-free category-webinar tag-carbon-credit-prices tag-carbon-projects-and-transactions tag-corporate-climate-commitments tag-free-report tag-overall-summary tag-policy-and-guidance tag-webinar grve-entry-item grve-blog-item"
+                            itemscope itemType="http://schema.org/BlogPosting">
+                            <div id="grve-single-content">
+                                <h2 class="grve-hidden" itemprop="headline">VCM: 2022 in review</h2>
+                                <div itemprop="articleBody">
+                                    <div class="grve-container pad">
+                                        <p class="p1">This slide pack and recording contains the presentation
+                                            from Trove’s &#8216;VCM in Review 2022&#8217;, where we discuss of
+                                            the voluntary carbon market in 2022 and what to expect for 2023.</p>
+                                    </div>
+                                </div>
+                                <span class="grve-hidden">
+                                    <span class="grve-structured-data" itemprop="image" itemscope
+                                        itemtype="http://schema.org/ImageObject">
+                                        <span
+                                            itemprop='url'>https://trove-research.com/wp-content/uploads/2023/01/VCM-In-Review-1Q23-e1679583316339.png</span>
+                                        <span itemprop='height'>400</span>
+                                        <span itemprop='width'>300</span>
+                                    </span>
+                                    <span class="grve-structured-data" itemprop="author" itemscope
+                                        itemtype="http://schema.org/Person">
+                                        <span itemprop="name">Trove Research</span>
+                                    </span>
+                                    <span class="grve-structured-data" itemprop="publisher" itemscope
+                                        itemtype="http://schema.org/Organization">
+                                        <span itemprop='name'>Trove Research</span>
+                                        <span itemprop='logo' itemscope
+                                            itemtype='http://schema.org/ImageObject'>
+                                            <span
+                                                itemprop='url'>https://trove-research.com/wp-content/uploads/2023/01/VCM-In-Review-1Q23-e1679583316339.png</span>
+                                        </span>
+                                    </span>
+                                    <time class="grve-structured-data" itemprop="datePublished"
+                                        datetime="2023-01-18T10:13:53+00:00">18 January 2023</time>
+                                    <time class="grve-structured-data" itemprop="dateModified"
+                                        datetime="2023-04-20T12:27:50+01:00">20 April 2023</time>
+                                    <span class="grve-structured-data" itemprop="mainEntityOfPage" itemscope
+                                        itemtype="http://schema.org/WebPage"
+                                        itemid="https://trove-research.com/webinar/voluntary-carbon-market-2022-in-review/"></span>
+                                </span>
+                            </div>
+                        </article>
+                        <div class="cta-button grve-section grve-row-section grve-fullwidth-background grve-with-bg-transparent"
+                            data-header-color="default">
+                            <div class="grve-container">
+                                <div
+                                    class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                                    <div
+                                        class="grve-column wpb_column grve-bookmark grve-column-1  grve-with-bg-transparent">
+                                        <div class="grve-column-wrapper">
+                                            <div class="grve-column-content">
+                                                <div class="grve-inner-section grve-with-bg-transparent">
+                                                    <div
+                                                        class="grve-row-inner grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                                                        <div
+                                                            class="grve-column-inner wpb_column grve-column-1  grve-horizontal-position-center grve-with-bg-transparent">
+                                                            <div class="grve-column-wrapper-inner">
+                                                                <div class="grve-column-inner-content">
+                                                                    <div class="grve-element grve-text">
+                                                                        <div class="grve-element grve-align-center latest-report-buttons"
+                                                                            style="border:1px solid #f2f2f2;padding-bottom:10px">
+                                                                            <a href="/auth/register/"
+                                                                                class="download-file">Please
+                                                                                create and login to a free
+                                                                                account to download</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grve-single-section">
+                            <div class="grve-container">
+                                <div class="grve-single-post-tags grve-margin-top-2x">
+                                    <ul class="grve-tags grve-h6 grve-border">
+                                        <ul class="grve-tags grve-h6 grve-border">
+                                            <li><a href="{% url 'tag-carbon-credit-prices' %}">Carbon
+                                                    Credit Prices</a></li>
+                                            <ul class="grve-tags grve-h6 grve-border">
+                                                <li><a
+                                                        href="{% url 'tag-carbon-projects-and-transactions' %}">Carbon
+                                                        Projects and Transactions</a></li>
+                                                <ul class="grve-tags grve-h6 grve-border">
+                                                    <li><a
+                                                            href="{% url 'tag-corporate-climate-commitments' %}">Corporate
+                                                            Climate Commitments</a></li>
+                                                    <ul class="grve-tags grve-h6 grve-border">
+                                                        <li><a
+                                                                href="{% url 'tag-free-report' %}">Free
+                                                                Report</a></li>
+                                                        <ul class="grve-tags grve-h6 grve-border">
+                                                            <li><a
+                                                                    href="{% url 'overall-summary' %}">Overall
+                                                                    Summary</a></li>
+                                                            <ul class="grve-tags grve-h6 grve-border">
+                                                                <li><a
+                                                                        href="{% url 'tag-policy-and-guidance' %}">Policy
+                                                                        and Guidance</a></li>
+                                                                <ul class="grve-tags grve-h6 grve-border">
+                                                                    <li><a
+                                                                            href="{% url 'tag-webinar' %}">Webinar</a>
+                                                                    </li>
+                                                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="section-footer /">
+    <div class="templatera_shortcode">
+        <p>
+        <div class="grve-section grve-row-section grve-fullwidth-background section-book-demo grve-padding-top-2x grve-padding-bottom-2x grve-headings-white grve-with-bg-image"
+            data-header-color="default" style="color:#ffffff;">
+            <div class="grve-container">
+                <div class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                    <div class="grve-column wpb_column grve-bookmark grve-column-1  grve-with-bg-transparent">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content">
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <div class="grve-element grve-callout">
+                                    <div class="grve-callout-wrapper">
+                                        <h3 class="grve-callout-content grve-h3">Book a demo</h3>
+                                        <p class="">To find out how your organisation can benefit from Trove’s
+                                            Intelligence Platform, schedule a demo with our team.</p>
+                                    </div>
+                                    <div class="grve-button-wrapper"><a
+                                            href="/contact-us/?subject=Book%20a%20demo" title="Book a demo"
+                                            class="grve-btn grve-round grve-bg-primary-1 grve-border-primary-1 grve-bg-hover-black grve-border-hover-black grve-text-white grve-text-hover-white grve-btn-medium">
+                                            <span>Book a demo</span>
+                                        </a></div>
+                                </div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-background-wrapper">
+                <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-19925"
+                    style="background-image: url(https://trove-research.com/wp-content/uploads/2022/07/bookdemo.jpg);">
+                </div>
+                <div class="grve-bg-overlay grve-bg-primary-2 grve-opacity-40"></div>
+            </div>
+        </div>
+        </p>
+    </div>
+    <div class="templatera_shortcode">
+        <div class="grve-section grve-row-section grve-fullwidth-background section-subscribe grve-padding-top-2x grve-padding-bottom-2x grve-with-bg-image"
+            data-header-color="default">
+            <div class="grve-container">
+                <div class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                    <div class="grve-column wpb_column grve-bookmark grve-column-1-2  grve-headings-white grve-with-bg-transparent"
+                        style="color:#ffffff;">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content">
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <h3 class="grve-element grve-title grve-align-inherit grve-h3"><span>Subscribe
+                                        to Corporate Climate Weekly</span></h3>
+                                <div class="grve-element grve-text">
+                                    <p>Sign up to receive a weekly digest on corporate climate commitments and
+                                        action from around the world.</p>
+                                </div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <div class="grve-element grve-align-inherit"><a href="/auth/register"
+                                        class="grve-btn grve-square grve-bg-primary-1 grve-border-primary-1 grve-bg-hover-black grve-border-hover-black grve-text-white grve-text-hover-white grve-btn-medium">
+                                        <span>SIGN UP</span>
+                                    </a></div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="grve-column wpb_column grve-bookmark grve-column-1-2  grve-with-bg-transparent grve-empty-column">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-background-wrapper">
+                <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-19501"
+                    style="background-image: url(https://trove-research.com/wp-content/uploads/2022/07/Group-56.jpg);">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

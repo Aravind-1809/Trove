@@ -1,0 +1,80 @@
+
+{% load static %}
+
+
+<aside id="grve-sidebar" class="grve-sidebar grve-fixed-sidebar pad3">
+    <div class="grve-wrapper clearfix">
+        <div id="search-2"
+            class="widget-odd widget-first widget-1 grve-widget widget widget_search">
+            <div class="grve-widget-title">Search</div>
+            <form class="grve-search" method="get" action="https://trove-research.com/">
+                <button type="submit" class="grve-search-btn grve-custom-btn"> <svg width="24px"
+                        height="24px" viewBox="0 0 24 24" stroke-width="0">
+                        <path
+                            d="M11,3 C15.418278,3 19,6.581722 19,11 C19,13.1038245 18.1879088,15.0179749 16.860099,16.4460786 L20.2071068,19.7928932 C20.5976311,20.1834175 20.5976311,20.8165825 20.2071068,21.2071068 C19.8466228,21.5675907 19.2793918,21.5953203 18.8871006,21.2902954 L18.7928932,21.2071068 L15.3199029,17.7345448 C14.0739277,18.5354376 12.5912161,19 11,19 C6.581722,19 3,15.418278 3,11 C3,6.581722 6.581722,3 11,3 Z M11,5 C7.6862915,5 5,7.6862915 5,11 C5,14.3137085 7.6862915,17 11,17 C14.3137085,17 17,14.3137085 17,11 C17,7.6862915 14.3137085,5 11,5 Z">
+                        </path>
+                    </svg>
+                </button>
+                <input type="text" class="grve-search-textfield" value="" name="s"
+                    placeholder="Search for..." aria-label="Search for..." />
+            </form>
+        </div>
+        <div id="categories-8" class="widget-even widget-2 grve-widget widget widget_categories">
+            <div class="grve-widget-title">Type</div>
+            <ul>
+                <li class="cat-item cat-item-114"><a
+                        href="{% url 'category/commentary' %}"
+                        title="Reports &amp; Commentary - Commentaries">Commentary</a> (16)
+                </li>
+                <li class="cat-item cat-item-115"><a
+                        href="{% url 'report' %}"
+                        title="Reports &amp; Commentary - Reports">Report</a> (34)
+                </li>
+                <li class="cat-item cat-item-257"><a
+                        href="{% url 'category/survey' %}" title="Survey">Survey</a>
+                    (1)
+                </li>
+                <li class="cat-item cat-item-113"><a
+                        href="{% url 'category/webinar' %}"
+                        title="Reports &amp; Commentary - Webinars">Webinar</a> (12)
+                </li>
+            </ul>
+        </div>
+        <div class="widget wak-custom-widget">
+            <div class="grve-widget-title">Module</div>
+            <div class="tag-links"><a href="{% url 'overall-summary' %}">Overall
+                    Summary</a><span class="tag_post__count">(8)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-corporate-climate-commitments' %}">Corporate
+                    Climate Commitments</a><span class="tag_post__count">(15)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-carbon-credit-prices' %}">Carbon Credit
+                    Prices</a><span class="tag_post__count">(8)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-voluntary-carbon-market-forecasts' %}">Voluntary
+                    Carbon Market Forecasts</a><span class="tag_post__count">(2)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-policy-and-guidance' %}">Policy and
+                    Guidance</a><span class="tag_post__count">(23)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-carbon-projects-and-transactions' %}">Carbon
+                    Projects and Transactions</a><span class="tag_post__count">(14)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-carbon-credit-integrity' %}">Carbon Credit
+                    Integrity</a><span class="tag_post__count">(6)</span></div>
+            <div class="tag-links"><a
+                    href="{% url 'tag-corporate-climate-news' %}">Corporate Climate
+                    News</a><span class="tag_post__count">(5)</span></div>
+            <div class="clear-filter grve-widget-title"><a
+                    href="{% url 'reports-and-commentary' %}">Show All</a></div>
+        </div>
+        <div id="custom_html-2"
+            class="widget_text widget-odd widget-last widget-3 grve-widget widget widget_custom_html">
+            <div class="textwidget custom-html-widget"></div>
+        </div>
+    </div>
+</aside>
+</div>
+</div>
+</div>
+<div class="section-footer /"></div>

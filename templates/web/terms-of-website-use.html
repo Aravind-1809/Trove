@@ -1,0 +1,475 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+
+
+<div id="grve-indicator" class=" grve-style-1 grve-blend">
+    <div class="grve-default"></div>
+    <div class="grve-inner grve-ind-arrow"> <svg width="40px" height="16px" viewBox="0 0 40 16">
+            <polygon class="grve-arrow-line" points="0 7 38 7 38 9 0 9"></polygon>
+            <polygon class="grve-arrow-point"
+                points="31.3481912 0 40 8 31.3481912 16 30 14.5816219 37.1 8 30 1.41837809"></polygon>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-search"> <svg width="24px" height="24px" viewBox="0 0 24 24"
+            stroke-width="0">
+            <path
+                d="M11,3 C15.418278,3 19,6.581722 19,11 C19,13.1038245 18.1879088,15.0179749 16.860099,16.4460786 L20.2071068,19.7928932 C20.5976311,20.1834175 20.5976311,20.8165825 20.2071068,21.2071068 C19.8466228,21.5675907 19.2793918,21.5953203 18.8871006,21.2902954 L18.7928932,21.2071068 L15.3199029,17.7345448 C14.0739277,18.5354376 12.5912161,19 11,19 C6.581722,19 3,15.418278 3,11 C3,6.581722 6.581722,3 11,3 Z M11,5 C7.6862915,5 5,7.6862915 5,11 C5,14.3137085 7.6862915,17 11,17 C14.3137085,17 17,14.3137085 17,11 C17,7.6862915 14.3137085,5 11,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-plus"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-arrows-left-right"> <svg width="24px" height="24px" viewBox="0 0 24 24">
+            <path d="M20,8 L24,12 L20,16 L19,15 L22,12 L19,9 L20,8 Z M4,8 L5,9 L2,12 L5,15 L4,16 L0,12 L4,8 Z">
+            </path>
+        </svg>
+    </div>
+    <div class="grve-inner grve-ind-text"><span class="grve-link-text"></span></div>
+    <div class="grve-ind-content"> <svg width="24px" height="24px" viewBox="0 0 24 24" stroke-width="0">
+            <path
+                d="M12,5 C12.5128358,5 12.9355072,5.38604019 12.9932723,5.88337887 L13,6 L13,11 L18,11 C18.5522847,11 19,11.4477153 19,12 C19,12.5128358 18.6139598,12.9355072 18.1166211,12.9932723 L18,13 L13,13 L13,18 C13,18.5522847 12.5522847,19 12,19 C11.4871642,19 11.0644928,18.6139598 11.0067277,18.1166211 L11,18 L11,13 L6,13 C5.44771525,13 5,12.5522847 5,12 C5,11.4871642 5.38604019,11.0644928 5.88337887,11.0067277 L6,11 L11,11 L11,6 C11,5.44771525 11.4477153,5 12,5 Z">
+            </path>
+        </svg>
+    </div>
+</div>
+<div id="grve-theme-content">
+
+    <div id="grve-page-title" class="grve-title-section grve-with-image grve-bg-primary-1"
+        data-height="small">
+        <div class="grve-wrapper" style="min-height:250px;">
+            <div class="grve-content grve-align-left-bottom" data-animation="none">
+                <div class="grve-container">
+                    <div class="grve-title-content-wrapper grve-bg-none grve-align-left grve-content-container">
+                        <h1 class="grve-title grve-page-title grve-text-white" style="margin-bottom:30px;"><span>Terms of Website Use</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="grve-page-breadcrumbs" class="grve-breadcrumbs clearfix grve-align-left">
+        <div class="grve-breadcrumbs-wrapper">
+            <div class="grve-container">
+                <nav id="grve-yoast-breadcrumbs" class="grve-yoast-breadcrumbs grve-small-text"
+                    aria-label="Breadcrumbs"><span><span><a href="{% url 'index' %}">Home</a></span>
+                        <span class="breadcrumb_last" aria-current="page">Terms of Website Use</span></span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="grve-single-wrapper">
+        <div id="grve-content" class="clearfix">
+            <div class="grve-content-wrapper">
+                <div id="grve-main-content">
+                    <div class="grve-main-content-wrapper clearfix">
+                        <div id="page-35" class="post-35 page type-page status-publish hentry grve-entry-item">
+                            <div class="grve-section grve-row-section grve-fullwidth-background grve-padding-top-1x grve-padding-bottom-1x grve-with-bg-transparent"
+                                data-header-color="default">
+                                <div class="grve-container pad">
+                                    <div
+                                        class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                                        <div
+                                            class="grve-column wpb_column grve-bookmark grve-column-1  grve-with-bg-transparent">
+                                            <div class="grve-column-wrapper">
+                                                <div class="grve-column-content">
+                                                    <div class="grve-element grve-text">
+                                                        <p><strong>PLEASE READ THESE TERMS AND CONDITIONS
+                                                                CAREFULLY BEFORE USING THIS SITE</strong></p>
+                                                        <h3>Terms of website use</h3>
+                                                        <p>This terms of use (together with the documents
+                                                            referred to in it) tells you the terms of use on
+                                                            which you may make use of our website
+                                                            www.trove-research.com (<strong>our site</strong>),
+                                                            whether as a guest or a registered user. Use of our
+                                                            site includes accessing, browsing, or registering to
+                                                            use our site.</p>
+                                                        <p>Please read these terms of use carefully before you
+                                                            start to use our site, as these will apply to your
+                                                            use of our site. We recommend that you print a copy
+                                                            of this for future reference.</p>
+                                                        <p>By using our site, you confirm that you accept these
+                                                            terms of use and that you agree to comply with them.
+                                                        </p>
+                                                        <p>If you do not agree to these terms of use, you must
+                                                            not use our site.</p>
+                                                        <h3>Other applicable terms</h3>
+                                                        <p>These terms of use refer to the following additional
+                                                            terms, which also apply to your use of our site:</p>
+                                                        <ul>
+                                                            <li>Our <a
+                                                                    href="{% url 'privacy-policy' %}">Privacy
+                                                                    Policy</a>, which sets out the terms on
+                                                                which we process any personal data we collect
+                                                                from you, or that you provide to us. By using
+                                                                our site, you consent to such processing and you
+                                                                warrant that all data provided by you is
+                                                                accurate.</li>
+                                                            <li>Our <a
+                                                                    href="{% url 'acceptable-use-policy' %}">Acceptable
+                                                                    Use Policy</a>, which sets out the permitted
+                                                                uses and prohibited uses of our site. When using
+                                                                our site, you must comply with this Acceptable
+                                                                Use Policy.</li>
+                                                            <li>Our <a
+                                                                    href="{% url 'cookies-policy' %}">Cookie
+                                                                    Policy</a>, which sets out information about
+                                                                the cookies on our site.</li>
+                                                        </ul>
+                                                        <p>If you purchase goods from our site, terms and
+                                                            conditions will apply to the sales.</p>
+                                                        <h3>Information about us</h3>
+                                                        <p>www.trove-research.com is a site operated by Trove
+                                                            Research <span
+                                                                style="font-weight: 400;">Limited</span>
+                                                            (&#8220;We&#8221;). We are registered in England and
+                                                            Wales under company number 09365292 and have our
+                                                            registered office at Trove Research <span
+                                                                style="font-weight: 400;">Limited</span>,
+                                                            Vaughan Chambers, Vaughan Road, Harpenden, AL5 4EE.
+                                                            Our VAT number is GB 284447377.</p>
+                                                        <p>We are a limited company.</p>
+                                                        <h3>Changes to these terms</h3>
+                                                        <p>We may revise these terms of use at any time by
+                                                            amending this page.</p>
+                                                        <p>Please check this page from time to time to take
+                                                            notice of any changes we made, as they are binding
+                                                            on you.</p>
+                                                        <h3>Changes to our site</h3>
+                                                        <p>We may update our site from time to time, and may
+                                                            change the content at any time. However, please note
+                                                            that any of the content on our site may be out of
+                                                            date at any given time, and we are under no
+                                                            obligation to update it.</p>
+                                                        <p>We do not guarantee that our site, or any content on
+                                                            it, will be free from errors or omissions.</p>
+                                                        <h3>Accessing our site</h3>
+                                                        <p>Our site is made available free of charge.</p>
+                                                        <p>We do not guarantee that our site, or any content on
+                                                            it, will always be available or be uninterrupted.
+                                                            Access to our site is permitted on a temporary
+                                                            basis. We may suspend, withdraw, discontinue or
+                                                            change all or any part of our site without notice.
+                                                            We will not be liable to you if for any reason our
+                                                            site is unavailable at any time or for any period.
+                                                        </p>
+                                                        <p>You are responsible for making all arrangements
+                                                            necessary for you to have access to our site.</p>
+                                                        <p>You are also responsible for ensuring that all
+                                                            persons who access our site through your internet
+                                                            connection are aware of these terms of use and other
+                                                            applicable terms and conditions, and that they
+                                                            comply with them.</p>
+                                                        <p>Our site is directed to people residing in the United
+                                                            Kingdom. We do not represent that content available
+                                                            on or through our site is appropriate or available
+                                                            in other locations. We may limit the availability of
+                                                            our site or any service or product described on our
+                                                            site to any person or geographic area at any time.
+                                                            If you choose to access our site from outside the
+                                                            United Kingdom, you do so at your own risk.</p>
+                                                        <h3>Your account and password</h3>
+                                                        <p>If you choose, or you are provided with, a user
+                                                            identification code, password or any other piece of
+                                                            information as part of our security procedures, you
+                                                            must treat such information as confidential. You
+                                                            must not disclose it to any third party.</p>
+                                                        <p>We have the right to disable any user identification
+                                                            code or password, whether chosen by you or allocated
+                                                            by us, at any time, if in our reasonable opinion you
+                                                            have failed to comply with any of the provisions of
+                                                            these terms of use.</p>
+                                                        <p>If you know or suspect that anyone other than you
+                                                            knows your user identification code or password, you
+                                                            must promptly notify us at Anna.michaels@trove-research.com.
+                                                        </p>
+                                                        <h3>Intellectual property rights</h3>
+                                                        <p>We are the owner or the licensee of all intellectual
+                                                            property rights in our site, and in the material
+                                                            published on it. Those works are protected by
+                                                            copyright laws and treaties around the world. All
+                                                            such rights are reserved.</p>
+                                                        <p>You may print off one copy, and may download
+                                                            extracts, of any page(s) from our site for your
+                                                            personal use and you may draw the attention of
+                                                            others within your organisation to content posted on
+                                                            our site.</p>
+                                                        <p>You must not modify the paper or digital copies of
+                                                            any materials you have printed off or downloaded in
+                                                            any way, and you must not use any illustrations,
+                                                            photographs, video or audio sequences or any
+                                                            graphics separately from any accompanying text.</p>
+                                                        <p>Our status (and that of any identified contributors)
+                                                            as the authors of content on our site must always be
+                                                            acknowledged.</p>
+                                                        <p>You must not use any part of the content on our site
+                                                            for commercial purposes without obtaining a licence
+                                                            to do so from us or our licensors.</p>
+                                                        <p>If you print off, copy or download any part of our
+                                                            site in breach of these terms of use, your right to
+                                                            use our site will cease immediately and you must, at
+                                                            our option, return or destroy any copies of the
+                                                            materials you have made.</p>
+                                                        <p>Any document downloaded from this website may not be
+                                                            photocopied, reproduced, scanned into an electronic
+                                                            system or transmitted, forwarded or distributed in
+                                                            any way without the prior consent of Trove Research
+                                                            Ltd.​</p>
+                                                        <h3>No reliance on information</h3>
+                                                        <p>The content on our site is provided for general
+                                                            information only. It is not intended to amount to
+                                                            advice on which you should rely. You must obtain
+                                                            professional or specialist advice before taking, or
+                                                            refraining from, any action on the basis of the
+                                                            content on our site.</p>
+                                                        <p>Although we make reasonable efforts to update the
+                                                            information on our site, we make no representations,
+                                                            warranties or guarantees, whether express or
+                                                            implied, that the content on our site is accurate,
+                                                            complete or up-to-date.</p>
+                                                        <h3>Limitation of our liability</h3>
+                                                        <p>Nothing in these terms of use excludes or limits our
+                                                            liability for death or personal injury arising from
+                                                            our negligence, or our fraud or fraudulent
+                                                            misrepresentation, or any other liability that
+                                                            cannot be excluded or limited by English law.</p>
+                                                        <p>To the extent permitted by law, we exclude all
+                                                            conditions, warranties, representations or other
+                                                            terms which may apply to our site or any content on
+                                                            it, whether express or implied.</p>
+                                                        <p>We will not be liable to any user for any loss or
+                                                            damage, whether in contract, tort (including
+                                                            negligence), breach of statutory duty, or otherwise,
+                                                            even if foreseeable, arising under or in connection
+                                                            with:</p>
+                                                        <ul>
+                                                            <li>use of, or inability to use, our site; or</li>
+                                                            <li>use of or reliance on any content displayed on
+                                                                our site.</li>
+                                                        </ul>
+                                                        <p>If you are a business user, please note that in
+                                                            particular, we will not be liable for:</p>
+                                                        <ul>
+                                                            <li>loss of profits, sales, business, or revenue;
+                                                            </li>
+                                                            <li>business interruption;</li>
+                                                            <li>loss of anticipated savings;</li>
+                                                            <li>loss of business opportunity, goodwill or
+                                                                reputation; or</li>
+                                                            <li>any indirect or consequential loss or damage.
+                                                            </li>
+                                                        </ul>
+                                                        <p>If you are a consumer user, please note that we only
+                                                            provide our site for domestic and private use. You
+                                                            agree not to use our site for any commercial or
+                                                            business purposes, and we have no liability to you
+                                                            for any loss of profit, loss of business, business
+                                                            interruption, or loss of business opportunity.</p>
+                                                        <p>We will not be liable for any loss or damage caused
+                                                            by a virus, distributed denial-of-service attack, or
+                                                            other technologically harmful material that may
+                                                            infect your computer equipment, computer programs,
+                                                            data or other proprietary material due to your use
+                                                            of our site or to your downloading of any content on
+                                                            it, or on any website linked to it.</p>
+                                                        <p>We assume no responsibility for the content of
+                                                            websites linked on our site. Such links should not
+                                                            be interpreted as endorsement by us of those linked
+                                                            websites. We will not be liable for any loss or
+                                                            damage that may arise from your use of them.</p>
+                                                        <h3>Uploading content to our site</h3>
+                                                        <p>Whenever you make use of a feature that allows you to
+                                                            upload content to our site, or to make contact with
+                                                            other users of our site, you must comply with the
+                                                            content standards set out in our <a
+                                                                href="{% url 'acceptable-use-policy' %}">Acceptable
+                                                                Use Policy</a>.</p>
+                                                        <p>You warrant that any such contribution does comply
+                                                            with those standards, and you will be liable to us
+                                                            and indemnify us for any breach of that warranty.
+                                                            [If you are a consumer user, this means you will be
+                                                            responsible for any loss or damage we suffer as a
+                                                            result of your breach of warranty.]</p>
+                                                        <p>Any content you upload to our site will be considered
+                                                            non-confidential and non-proprietary. You retain all
+                                                            of your ownership rights in your content, but you
+                                                            are required to grant us [and other users of the
+                                                            Site] a limited licence to use, store and copy that
+                                                            content and to distribute and make it available to
+                                                            third parties. The rights you license to us are
+                                                            described in the next paragraph (Rights you
+                                                            licence).</p>
+                                                        <p>We also have the right to disclose your identity to
+                                                            any third party who is claiming that any content
+                                                            posted or uploaded by you to our site constitutes a
+                                                            violation of their intellectual property rights, or
+                                                            of their right to privacy.</p>
+                                                        <p>We will not be responsible, or liable to any third
+                                                            party, for the content or accuracy of any content
+                                                            posted by you or any other user of our site.</p>
+                                                        <p>We have the right to remove any posting you make on
+                                                            our site if, in our opinion, your post does not
+                                                            comply with the content standards set out in our <a
+                                                                href="{% url 'acceptable-use-policy' %}">Acceptable
+                                                                Use Policy</a>.</p>
+                                                        <p>The views expressed by other users on our site do not
+                                                            represent our views or values.</p>
+                                                        <p>You are solely responsible for securing and backing
+                                                            up your content.</p>
+                                                        <h3>Rights you licence</h3>
+                                                        <p>When you upload or post content to our site, you
+                                                            grant the following licenses:</p>
+                                                        <ul>
+                                                            <li>A worldwide, non-exclusive, royalty-free,
+                                                                transferable licence to use, reproduce,
+                                                                distribute, prepare derivative works of,
+                                                                display, and perform that content in connection
+                                                                with the services provided by our site and
+                                                                across different media and to promote the site
+                                                                or services; and</li>
+                                                            <li>A worldwide, non-exclusive, royalty-free,
+                                                                transferable licence to allow third parties to
+                                                                use the content for their purposes.</li>
+                                                        </ul>
+                                                        <p>We will only ever use your materials to carry out
+                                                            your instructions to us – unless, very
+                                                            exceptionally, a court or other regulator orders us
+                                                            to disclose them.</p>
+                                                        <h3>Viruses</h3>
+                                                        <p>We do not guarantee that our site will be secure or
+                                                            free from bugs or viruses.</p>
+                                                        <p>You are responsible for configuring your information
+                                                            technology, computer programmes and platform in
+                                                            order to access our site. You should use your own
+                                                            virus protection software.</p>
+                                                        <p>You must not misuse our site by knowingly introducing
+                                                            viruses, trojans, worms, logic bombs or other
+                                                            material which is malicious or technologically
+                                                            harmful. You must not attempt to gain unauthorised
+                                                            access to our site, the server on which our site is
+                                                            stored or any server, computer or database connected
+                                                            to our site. You must not attack our site via a
+                                                            denial-of-service attack or a distributed denial-of
+                                                            service attack. By breaching this provision, you
+                                                            would commit a criminal offence under the Computer
+                                                            Misuse Act 1990. We will report any such breach to
+                                                            the relevant law enforcement authorities and we will
+                                                            co-operate with those authorities by disclosing your
+                                                            identity to them. In the event of such a breach,
+                                                            your right to use our site will cease immediately.
+                                                        </p>
+                                                        <h3>Linking to our site</h3>
+                                                        <p>You may link to our home page, provided you do so in
+                                                            a way that is fair and legal and does not damage our
+                                                            reputation or take advantage of it.</p>
+                                                        <p>You must not establish a link in such a way as to
+                                                            suggest any form of association, approval or
+                                                            endorsement on our part where none exists.</p>
+                                                        <p>You must not establish a link to our site in any
+                                                            website that is not owned by you.</p>
+                                                        <p>Our site must not be framed on any other site, nor
+                                                            may you create a link to any part of our site other
+                                                            than the home page.</p>
+                                                        <p>We reserve the right to withdraw linking permission
+                                                            without notice.</p>
+                                                        <p>The website in which you are linking must comply in
+                                                            all respects with the content standards set out in
+                                                            our <a
+                                                                href="{% url 'acceptable-use-policy' %}">Acceptable
+                                                                Use Policy</a>.</p>
+                                                        <p>If you wish to make any use of content on our site
+                                                            other than that set out above, please contact info@trove-research.com.
+                                                        </p>
+                                                        <h3>Third party links and resources in our site</h3>
+                                                        <p>Where our site contains links to other sites and
+                                                            resources provided by third parties, these links are
+                                                            provided for your information only.</p>
+                                                        <p>We have no control over the contents of those sites
+                                                            or resources.</p>
+                                                        <h3>Applicable law</h3>
+                                                        <p>If you are a consumer, please note that these terms
+                                                            of use, its subject matter and its formation, are
+                                                            governed by English law. You and we both agree to
+                                                            that the courts of England and Wales will have
+                                                            non-exclusive jurisdiction. However, if you are a
+                                                            resident of Northern Ireland you may also bring
+                                                            proceedings in Northern Ireland, and if you are
+                                                            resident of Scotland, you may also bring proceedings
+                                                            in Scotland.</p>
+                                                        <p>If you are a business, these terms of use, its
+                                                            subject matter and its formation (and any
+                                                            non-contractual disputes or claims) are governed by
+                                                            English law. We both agree to the exclusive
+                                                            jurisdiction of the courts of England and Wales.</p>
+                                                        <h3>Contact us</h3>
+                                                        <p>To contact us, please email <span
+                                                                style="font-weight: 400;"><a
+                                                                    href="/cdn-cgi/l/email-protection#c6afa8a0a986b2b4a9b0a3ebb4a3b5a3a7b4a5aee8a5a9ab"><span
+                                                                        class="__cf_email__"
+                                                                        data-cfemail="274e4941486753554851420a554254424655444f0944484a">info@trove-research.com</span></a>.</span>
+                                                        </p>
+                                                        <p>Thank you for visiting our site.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-footer /">
+    <div class="templatera_shortcode">
+        <div class="grve-section grve-row-section grve-fullwidth-background section-subscribe grve-padding-top-2x grve-padding-bottom-2x grve-with-bg-image"
+            data-header-color="default">
+            <div class="grve-container">
+                <div class="grve-row grve-bookmark grve-columns-gap-default grve-mobile-vertical-gap-30">
+                    <div class="grve-column wpb_column grve-bookmark grve-column-1-2  grve-headings-white grve-with-bg-transparent"
+                        style="color:#ffffff;">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content">
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <h3 class="grve-element grve-title grve-align-inherit grve-h3"><span>Subscribe
+                                        to Corporate Climate Weekly</span></h3>
+                                <div class="grve-element grve-text">
+                                    <p>Sign up to receive a weekly digest on corporate climate commitments and
+                                        action from around the world.</p>
+                                </div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                                <div class="grve-element grve-align-inherit"><a href="/auth/register"
+                                        class="grve-btn grve-square grve-bg-primary-1 grve-border-primary-1 grve-bg-hover-black grve-border-hover-black grve-text-white grve-text-hover-white grve-btn-medium">
+                                        <span>SIGN UP</span>
+                                    </a></div>
+                                <div class="grve-empty-space grve-height-1x"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="grve-column wpb_column grve-bookmark grve-column-1-2  grve-with-bg-transparent grve-empty-column">
+                        <div class="grve-column-wrapper">
+                            <div class="grve-column-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grve-background-wrapper">
+                <div class="grve-bg-image grve-bg-center-center grve-bg-image-id-19501"
+                    style="background-image: url(https://trove-research.com/wp-content/uploads/2022/07/Group-56.jpg);">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
